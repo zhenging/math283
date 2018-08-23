@@ -1,7 +1,7 @@
 ### Section 12.3 Dot Products
 
 #### Homework
-p808: 5, 9, 13, 17, 21, 24, 25-28, 29-37odd, 40, 45, 49,, 55, 59, 63, 69, 72, 85
+p808: 5, 9, 13, 17, 21, 24, 25-28, 29-37odd, 40, **45**, 49, **55**, 59, 63, 69, 72, 85
 
 5\. Explain how to find the angle between two nonzero vectors.
 >Solution
@@ -12,8 +12,7 @@ Given non-zero vectors u and v, the angle between them is $\cos^{-1} \frac{u \cd
 >Solution
 The vector u(x+) is perpendicular to the vector v (y+). Therefore $\th = \frac{\pi}{2}$, u and v are orthogonal, and $u\cdot v = 0$.
 
-13\. **Dot product from the definition** Compute $u \cdot v$ if u and v are
-unit vectors and the angle between them is $\frac{\pi}{3}$.
+13\. **Dot product from the definition** Compute $u \cdot v$ if u and v are unit vectors and the angle between them is $\frac{\pi}{3}$.
 >Solution
 $$
 \begin{aligned}
@@ -104,7 +103,6 @@ $$
 37–42\. **Computing work** Calculate the work done in the following situations.
 37\. A suitcase is pulled 50 ft along a flat sidewalk with a constant force of 30 lb at an angle of $30\degree$ above the horizontal.
 >Solution
-Graph (37).
 $$
 \begin{aligned}
 w &= F \cdot d = |F| |d| \cos(30\degree)\\
@@ -122,29 +120,65 @@ w &= F\cdot d = \langle 4, 3, 2 \rangle \cdot \langle 8, 6, 0 \rangle\\
 $$
 
 43–46\. **Parallel and normal forces** Find the components of the vertical force $F = \langle 0, -10 \rangle$ in the directions parallel to and normal to the following planes. Show that the total force is the sum of the two component forces.
-45\. A plane that makes an angle of $\pi/3$ with the positive x-axis
+45\. A plane that makes an angle of $\pi/3$ with the positive x-axis.
+>Solution
+$v = \langle \frac{1}{2}, -\frac{\sqrt 3}{2} \rangle$. Let the component parallel to $F$ be $P$, and normal to $F$ be $N$.
+$$
+\begin{aligned}
+P = \text{proj}_v F &= \frac{F\cdot v}{v\cdot v} v \\
+&=5\sqrt 3\langle \frac{1}{2}, -\frac{\sqrt 3}{2} \rangle = \langle \frac{5\sqrt 3}{2}, -\frac{15}{2} \rangle\\
+N = F - P &= \langle -\frac{5\sqrt 3}{2}, -\frac{5}{2} \rangle
+\end{aligned}
+$$
 
 48–52\. **Orthogonal vectors** Let a and b be real numbers.
 49\. Find all vectors $\langle 1, a, b \rangle$ orthogonal to $\langle 4, -8, 2 \rangle$.
+>Solution
+When two vectors are orthogonal, their dot product is 0.
+$$
+\begin{aligned}
+&\langle 1, a, b \rangle \cdot \langle 4, -8, 2 \rangle = 0\\
+\To &4-8a + 2b = 0\\
+\To &b = 4a-2
+\end{aligned}
+$$
+These vectors have the form of $\langle 1, a, 4a-2 \rangle$.
 
 54–57\. **Vectors with equal projections** Given a fixed vector v, there is an infinite set of vectors u with the same value of $\text{proj}_v u$.
 55\. Let $v = \langle 1, 1 \rangle$. Give a description of the position vectors u such that $\text{proj}_v u = \text{proj}_v \langle 1, 2 \rangle$.
+>Solution
 
-58–61\. **Decomposing vectors** For the following vectors u and v, express u as the sum u = p + n, where p is parallel to v and n is o rthogonal to v.
+58–61\. **Decomposing vectors** For the following vectors $u$ and $v$, express $u$ as the sum $u = p + n$, where $p$ is parallel to $v$ and $n$ is orthogonal to $v$.
 59\. $u = \langle -2, 2 \rangle, v= \langle 2, 1 \rangle$
+>Solution
+$$
+\begin{aligned}
+p = \text{proj}_v u &= \frac{u \cdot v}{v\cdot v} v\\
+&=-\frac{2}{5}\langle 2, 1 \rangle = \langle -\frac{4}{5}, -\frac{2}{5} \rangle\\
+n = u-p &= \langle -\frac{6}{5}, \frac{12}{5} \rangle
+\end{aligned}
+$$
 
-62–65\. **Distance between a point and a line** Carry out the following steps to determine the (smallest) distance between the point P and the line $\ell$ through the origin.
+62–65\. **Distance between a point and a line** Carry out the following steps to determine the (smallest) distance between the point $P$ and the line $\ell$ through the origin.
 a. Find any vector v in the direction of $\ell$.
 b. Find the position vecter u corresponding to P.
 c. Find $\text{proj}_v u$.
-d. Show that $w = u-\text{proj}_v u$ is a vector orthogonal to v whose length is the distance betwee P and the line $\ell$.
+d. Show that $w = u-\text{proj}_v u$ is a vector orthogonal to $v$ whose length is the distance betwee $P$ and the line $\ell$.
 e. Find $w$ and $|w|$. Explain why $|w|$ is the distance between P and $\ell$.
 63\. $P(-12, 4); \ell: y = 2x$
+>Solution
+a. $v = \langle 1, 2 \rangle$
+b. $u = \langle -12, 4 \rangle$
+c. $\text{proj}_v u = \frac{u \cdot v}{v \cdot v} v = \langle -\frac{4}{5}, -\frac{8}{5} \rangle$.
+d. $w = u-\text{proj}_v u = \langle -\frac{56}{5}, \frac{28}{5} \rangle$ and $w \cdot v = 0$. Therefore, $w$ and $v$ are orthogonal.
+e. $|w| = \frac{28\sqrt 5}{5}$. $|w|$ is the component of $u$ orthogonal to $v$, so it is the distance from $P$ to $\ell$.
 
 69\. **Orthogonal unit vectors in $\mathbb{R}^3$** Consider the vectors $I = \langle \frac{1}{2}, \frac{1}{2}, \frac{1}{\sqrt 2} \rangle$, $J = \langle -\frac{1}{\sqrt 2}, \frac{1}{\sqrt 2}, 0 \rangle$, $K = \langle \frac{1}{2}, \frac{1}{2}, -\frac{1}{\sqrt 2} \rangle$
 a. Sketch **I, J, and K** and show that they are unit vectors.
 b. Show that **I, J, and K** are pairwise orthogonal.
 c. Express the vector $\langle 1, 0, 0 \rangle$ in terms of **I, J, and K.**
+>Solution
+
 
 72\. **Flow through a circle** Suppose water flows in a thin sheet over the xy-plane with a uniform velocity given by the vector $v = \langle 1, 2 \rangle$; this means that at all points of the plane, the velocity of the water has components 1 m/s in the x-direction and 2 m/s in the y-direction (see figure). Let C be an imaginary unit circle (that does not interfere with the flow). Graph (72).
 
