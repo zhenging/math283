@@ -65,8 +65,8 @@ Direction vector, $w = u \cdot v = \begin{vmatrix}
   i & j & k\\
   -2 & 8 & -4\\
   -2 & 1 & -1
- \end{vmatrix} = \langle -12, -10, -14 \rangle$
-Equation, $r(t) = \langle 1-12t, 2-10t, 3-14t \rangle$.
+ \end{vmatrix} = \langle -4, 6, 14 \rangle$
+Equation, $r(t) = \langle 1-4t, 2+6t, 3+14t \rangle$.
 
 25–28\. **Line segments** Find an equation of the line segment joining the first point to the second point.
 25\. $(0, 0, 0)$, and $(1, 2, 3)$.
@@ -80,9 +80,7 @@ Direction vection, $v = \langle 5, 1, -5 \rangle$. Equation, $r(t) = \langle 2 +
 29–36\. **Curves in space** Graph the curves described by the following functions, indicating the direction of positive orientation. Try to antici pate the shape of the curve before using a graphing utility.
 31\. $r(t) = \cos t \text{i} + \text{j} + \sin t \text{k}$, for $0 \les t \les 2\pi$.
 >Solution
-Graph (31).
-<br>
-<br>
+Graph 31.
 <br>
 <br>
 <br>
@@ -90,14 +88,20 @@ Graph (31).
 
 33\. $r(t) = t\cos t \text{i} + \sin t \text{j} + tk$, for $0 \les t \les 6\pi$.
 >Solution
-Graph (33).
+Graph 33.
 
 35\. $r(t) = e^{-t/20}\sin t \text{i} + e^{-t/20}\cos t \text{j} + tk$, for $0 \les t \lt \infty$.
 >Solution
-Graph (35).
+Graph 35.
+<br>
+<br>
+<br>
+<br>
 
 37–40\. **Exotic curves** Graph the curves described by the following functions. Use analysis to anticipate the shape of the curve before using a graphing utility.
 38\. $r(t) = 2\cos t \text{i} + 4\sin t \text{j} + \cos{10t} \text{k}$, for $0 \les t \les 2\pi$.
+>Solution
+Graph 38.
 
 41–46\. **Limits** Evaluate the following limits.
 41\. $\dlim_{t\to \pi/2}(\cos{2t}\text{i} - 4\sin t \text{j} + \frac{2t}{\pi} \text{k})$
@@ -141,13 +145,18 @@ The point of intersection is $(4, 3, 3)$.
 Equation of the line, $l(t) = \langle 4, 3-9t, 3 + 6t \rangle$
 
 50–55\. **Skew lines** A pair of lines in $\mathbb{R}^3$ are said to be skew if they are neither parallel nor intersecting. Determine whether the following pairs of lines are parallel, intersecting, or skew. If the lines intersect, determine the point(s) of intersection.
-51\. $r(t) = \langle 1 + 6t, 3-7t, 2 + t \rangle$
-$R(s) = \langle 10 + 3s, 6+s, 14 + 4t \rangle$
+51\. $r(t) = \langle 1 + 6t, 3-7t, 2 + t \rangle$, $R(s) = \langle 10 + 3s, 6+s, 14 + 4s \rangle$
 >Solution
-Direction vector of $r(t)$, $v_r = \langle 6, -7, 1 \rangle$
-Direction vector of $R(t)$, $v_R = \langle 3, 1, 4 \rangle$
-$v_r \cdot v_R = $
-todo
+$\begin{cases}
+1 + 6t = 10 + 3s\\
+3 - 7t = 6 + s\\
+2 + t = 14 + 4s
+\end{cases} \To \begin{cases}
+t = 0\\
+s = -3
+\end{cases}
+$
+These two lines intersect at point $(1, 3, 2)$.
 
 56–59\. **Domains** Find the domains of the following vector-valued functions.
 57\. $r(t) = \sqrt{t+2} \text{i} + \sqrt{2-t}\text{j}$
@@ -161,11 +170,16 @@ t + 2 \ges 0\\
 the following planes and lines intersect.
 61\. $z=4; r(t) = \langle 2t+1, -t+4, t-6 \rangle$
 >Solution
-todo
+$t-6 = 4 \To t = 10$. The intersection point is $(21, -6, 4)$.
 
 67\. Matching functions with graphs Match functions a–f with the appropriate graphs A–F.
 >Solution
-todo
+a -> E. (A line)
+b -> D. (Parabolic like)
+c -> F. (A circle in xy-plane and z=2)
+d -> C. (Circular helix, elongated along the x-axis)
+e -> A. (Closed curve)
+f -> B. (Circular helix, elongated along the y-axis)
 
 75\. Graph the curve $r(t) = \langle \frac{1}{2}\sin{2t}, \frac{1}{2}(1-\cos{2t}), \cos t \rangle$ and and prove that it lies on the surface of a sphere centered at the origin.
 >Solution
