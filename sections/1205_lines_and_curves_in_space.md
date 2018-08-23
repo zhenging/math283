@@ -81,10 +81,6 @@ Direction vection, $v = \langle 5, 1, -5 \rangle$. Equation, $r(t) = \langle 2 +
 31\. $r(t) = \cos t \text{i} + \text{j} + \sin t \text{k}$, for $0 \les t \les 2\pi$.
 >Solution
 Graph 31.
-<br>
-<br>
-<br>
-<br>
 
 33\. $r(t) = t\cos t \text{i} + \sin t \text{j} + tk$, for $0 \les t \les 6\pi$.
 >Solution
@@ -93,10 +89,6 @@ Graph 33.
 35\. $r(t) = e^{-t/20}\sin t \text{i} + e^{-t/20}\cos t \text{j} + tk$, for $0 \les t \lt \infty$.
 >Solution
 Graph 35.
-<br>
-<br>
-<br>
-<br>
 
 37–40\. **Exotic curves** Graph the curves described by the following functions. Use analysis to anticipate the shape of the curve before using a graphing utility.
 38\. $r(t) = 2\cos t \text{i} + 4\sin t \text{j} + \cos{10t} \text{k}$, for $0 \les t \les 2\pi$.
@@ -110,7 +102,7 @@ $\dlim_{t\to \pi/2}r(t) = -\text{i} - 4\text{j} + \text{k}$
 
 44\. $\dlim_{t\to 2}(\frac{t}{t^2 + 1} \text{i} - 4e^{-t}\sin{\pi t} \text{j} + \frac{1}{\sqrt{4t + 1}}\text{k})$
 >Solution
-$\dlim_{t \to 2} r(t) = \frac{2}{5} \text{i} + \frac{1}{3}\text{k})$
+$\dlim_{t \to 2} r(t) = \frac{2}{5} \text{i} + \frac{1}{3}\text{k}$
 
 45\. $\dlim_{t\to 0}(\frac{\sin t}{t} \text{i} - \frac{e^t - t- 1}{t}\text{j} + \frac{\cos t + t^2/2 -1}{t^2}\text{k})$
 >Solution
