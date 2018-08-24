@@ -167,5 +167,24 @@ $$
 \end{aligned}
 $$
 
-75\. **Three-cable load** A 500-kg load hangs from three cables of equal length that are anchored at the points $(-2, 0, 0), (1, \sqrt 3, 0)$, and $(1, -\sqrt 3, 0)$. The load is located at $(0, 0, -2\sqrt 3)$. Find the vectors describing the forces on the cables due to the load.
+75\. **Three-cable load** A 500-kg load hangs from three cables of equal length that are anchored at the points $(-2, 0, 0), (1, \sqrt 3, 0)$, and $(1, -\sqrt 3, 0)$. The load is located at $(0, 0, -2\sqrt 3)$. Find the vectors describing the forces on the cables due to the load. Graph 75.
 >Solution
+Let the force vector on the three cable be $F_1, F_2, F_3$, and the weight of the load be $W = \langle 0, 0, -500 \times 9.8 \rangle$. The direction vector of $F_1, F_2, F_3$ are $\langle 1, \sqrt 3, 2\sqrt 3 \rangle, \langle -2, 0, 2\sqrt 3 \rangle$ and $\langle 1, -\sqrt 3, 2\sqrt 3 \rangle$.
+$$
+\begin{aligned}
+&\begin{gathered}
+F_1 + F_2 + F_3 + W = \langle 0, 0, 0 \rangle\\
+F_1 = f_1\langle 1, \sqrt 3, 2\sqrt 3 \rangle\\
+F_2 = f_2\langle -2, 0, 2\sqrt 3 \rangle\\
+F_3 = f_3\langle 1, -\sqrt 3, 2\sqrt 3 \rangle\\
+\end{gathered} \To \begin{cases}
+f_1-2f_2 + f_3 + 0 = 0\\
+\sqrt 3 f_1 +0 -\sqrt 3 f_3 + 0 = 0\\
+2\sqrt 3(f_1+f_2 + f_3) - 500 \times 9.8 = 0\\
+\end{cases}\\
+\To & f_1 = f_2 = f_3 = \frac{2450}{3\sqrt 3}\\
+F_1 &= \frac{2450}{3\sqrt 3}\langle 1, \sqrt 3, 2\sqrt 3 \rangle\\
+F_2 &= \frac{2450}{3\sqrt 3}\langle -2, 0, 2\sqrt 3 \rangle\\
+F_3 &= \frac{2450}{3\sqrt 3}\langle 1, -\sqrt 3, 2\sqrt 3 \rangle
+\end{aligned}
+$$
