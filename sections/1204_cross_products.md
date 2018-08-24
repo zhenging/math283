@@ -108,52 +108,35 @@ $$
 29–34\. **Computing cross products** Find the cross products $u \times v$ and $v \times u$ for the following vectors $u$ and $v$.
 29\. $u=\langle 3, 5, 0 \rangle, v = \langle 0, 3, -6 \rangle$
 >Solution
-$$
-\begin{aligned}
-u \times v &= \begin{vmatrix}
+$u \times v = \begin{vmatrix}
    i & j & k\\
    3 & 5 & 0\\
    0 & 3 & -6
-\end{vmatrix} = -30i+18j + 9k\\
-v \times u &= -(u \times v) = 30i -18j - 9k
-\end{aligned}
-$$
+\end{vmatrix} = -30i+18j + 9k$
+$v \times u = -(u \times v) = 30i -18j - 9k$
 
 32\. $u=\langle 3, -4, 6 \rangle, v = \langle 1, 2, -1 \rangle$
 >Solution
-$$
-\begin{aligned}
-u \times v &= \begin{vmatrix}
+$u \times v = \begin{vmatrix}
    i & j & k\\
    3 & -4 & 6\\
    1 & 2 & -1
-\end{vmatrix} = -8i+9j + 10k\\
-v \times u &= -(u \times v) = 8i -9j - 10k
-\end{aligned}
-$$
+\end{vmatrix} = -8i+9j + 10k$
+$v \times u = -(u \times v) = 8i -9j - 10k$
 
 35–38\. **Normal vectors** Find a vector normal to the given vectors.
 35\. $\langle 0, 1, 2 \rangle$ and $\langle -2, 0, 3 \rangle$.
 >Solution
 A vectoc normal to u and v is parallel to $u \times v$. One normal vector is
-$$
-\begin{aligned}
-\begin{vmatrix}
+$\begin{vmatrix}
    i & j & k\\
    0 & 1 & 2\\
    -2 & 0 & 3
-\end{vmatrix} &= (3-0)i - (0 + 4)j + (0 + 2)k\\
-&= 3i - 4j + 2k
-\end{aligned}
-$$
+\end{vmatrix} = 3i - 4j + 2k$
 
 39\. **Tightening a bolt** Suppose you apply a force of 20 N to a 0.25-meter-long wrench attached to a bolt in a direction perpendicular to the bolt. Determine the magnitude of the torque when the force is applied at an angle of $45\degree$ to the wrench.
 >Solution
-$$
-\begin{aligned}
-|\tau| &= |r| |F| \sin \th = (0.25m)(20N)\sin(45\degree) = \frac{5\sqrt 2}{2}N\cdot m
-\end{aligned}
-$$
+$|\tau| = |r| |F| \sin \th = (0.25m)(20N)\sin(45\degree) = \frac{5\sqrt 2}{2}N\cdot m$
 
 41–44\. **Computing torque** Answer the following questions about torque.
 42\. Let $r=\vec{OP} = i-j+2k$. A force $F=\langle 10, 10, 0 \rangle$ is applied at $P$. Find the torque about $O$ that is produced.
