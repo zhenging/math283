@@ -1,7 +1,7 @@
 ### Section 12.3 Dot Products
 
 #### Homework
-p808: 5, 9, 13, 17, 21, 24, 25-28, 29-37odd, 40, **45**, 49, **55**, 59, 63, 69, 72, 85
+p808: 5, 9, 13, 17, 21, 24, 25-28, 29-37odd, 40, **45**, 49, **55**, 59, 63, **69, 72**, 85
 
 5\. Explain how to find the angle between two nonzero vectors.
 >Solution
@@ -147,6 +147,9 @@ These vectors have the form of $\langle 1, a, 4a-2 \rangle$.
 54–57\. **Vectors with equal projections** Given a fixed vector v, there is an infinite set of vectors u with the same value of $\text{proj}_v u$.
 55\. Let $v = \langle 1, 1 \rangle$. Give a description of the position vectors u such that $\text{proj}_v u = \text{proj}_v \langle 1, 2 \rangle$.
 >Solution
+Todo
+<br>
+<br>
 
 58–61\. **Decomposing vectors** For the following vectors $u$ and $v$, express $u$ as the sum $u = p + n$, where $p$ is parallel to $v$ and $n$ is orthogonal to $v$.
 59\. $u = \langle -2, 2 \rangle, v= \langle 2, 1 \rangle$
@@ -178,9 +181,33 @@ a. Sketch **I, J, and K** and show that they are unit vectors.
 b. Show that **I, J, and K** are pairwise orthogonal.
 c. Express the vector $\langle 1, 0, 0 \rangle$ in terms of **I, J, and K.**
 >Solution
-
+a. $|I| = \sqrt{(\frac{1}{2})^2 + (\frac{1}{2})^2 + (\frac{1}{\sqrt 2})^2} = 1$, $|J| = \sqrt{(-\frac{1}{\sqrt 2})^2 + (\frac{1}{\sqrt 2})^2 + 0^2} = 1$, and $|K| = \sqrt{(\frac{1}{2})^2 + (\frac{1}{2})^2 + (-\frac{1}{\sqrt 2})^2} = 1$
+b. $I \cdot J = -\frac{1}{2\sqrt 2} + \frac{1}{2\sqrt 2} = 0$, $I \cdot K = \frac{1}{4} + \frac{1}{4} - \frac{1}{2} = 0$, and $J \cdot K = -\frac{1}{2\sqrt 2} + \frac{1}{2\sqrt 2} = 0$
+c. Let $\langle 1, 0, 0 \rangle = aI + bJ + cK$,
+$$
+\begin{aligned}
+\begin{gathered}
+\frac{1}{2}a - \frac{1}{\sqrt 2}b + \frac{1}{2}c = 1\\
+\frac{1}{2}a + \frac{1}{\sqrt 2}b + \frac{1}{2}c = 0\\
+\frac{1}{\sqrt 2}a - \frac{1}{\sqrt 2}c = 0
+\end{gathered} \To
+a = \frac{1}{2}, b = -\frac{1}{\sqrt 2}, c = \frac{1}{2}
+\end{aligned}
+$$
+Therefore, $\langle 1, 0, 0 \rangle = \frac{1}{2}I - \frac{1}{\sqrt 2}J + \frac{1}{2}K$
 
 72\. **Flow through a circle** Suppose water flows in a thin sheet over the xy-plane with a uniform velocity given by the vector $v = \langle 1, 2 \rangle$; this means that at all points of the plane, the velocity of the water has components 1 m/s in the x-direction and 2 m/s in the y-direction (see figure). Let C be an imaginary unit circle (that does not interfere with the flow). Graph (72).
+>Solution
+Todo
+<br>
+<br>
+<br>
+<br>
+<br>
 
-84–88\. **Cauchy-Schwarz Inequality** The definition $u \cdot v = |u| |v| \cos \th$ implies that$u \cdot v \les |u| |v|$ because $|\cos \th| \les 1$. This inequality, known as the Cauchy–Schwarz Inequality, holds in any number of dimensions and has many consequence.
-85\. Verify that the Cauchy–Schwarz Inequality holds for $u=langle 3, -5, 6 \rangle$ and $v = \langle -8, 3, 1 \rangle$.
+84–88\. **Cauchy-Schwarz Inequality** The definition $u \cdot v = |u| |v| \cos \th$ implies that$|u \cdot v| \les |u| |v|$ because $|\cos \th| \les 1$. This inequality, known as the Cauchy–Schwarz Inequality, holds in any number of dimensions and has many consequence.
+85\. Verify that the Cauchy–Schwarz Inequality holds for $u=\langle 3, -5, 6 \rangle$ and $v = \langle -8, 3, 1 \rangle$.
+>Solution
+$|u \cdot v| = |3\times (-8) + (-5)\times 3 + 6\times 1| = 33$
+$|u| |v| = \sqrt{3^2 + (-5)^2 + 6^2} \cdot \sqrt{(-8)^2 + 3^2 + 1^2} = \sqrt{70 \times 74}$
+$33 \le \sqrt{70 \times 74}$. Therefore $|u \cdot v| \les |u| |v|$.
