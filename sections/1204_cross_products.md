@@ -202,4 +202,4 @@ r &= 0.66k \quad F = 40j\\
 |\tau| &= |-26.4i| = 26.4 N\cdot m
 \end{aligned}
 $$
-The magnitude of the torque is $24.4 N\cdot m$, and the direction is negative x-axis.
+The magnitude of the torque is $26.4 N\cdot m$, and the direction is negative x-axis.
