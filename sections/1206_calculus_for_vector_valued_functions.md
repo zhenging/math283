@@ -87,9 +87,9 @@ $$
 >Solution
 $$
 \begin{aligned}
-\frac{d}{dt} u(t^4-2t)&= (4t^3-2)\langle 2t^3, t^2-1, -8 \rangle + (t^4-2t)\langle 6t^2, 2t, 0 \rangle\\
-&= \langle 8t^6-4t^3, 4t^5-4t^3-2t^2 + 2, -32t^3 + 16 \rangle + \langle 6t^6-12t^3, 2t^5-4t^2,  0 \rangle\\
-&= \langle 14t^6-16t^3, 6t^5-4t^3--6t^2 + 2, -32t^3 + 16\rangle
+\frac{d}{dt} u(t^4-2t)&= u'(t^2 - 2t) \cdot \frac{d}{dt}(t^2 - 2t)\\
+&= \langle 6(t^2-3t)^2, 2(t^2 - 2t), 0 \rangle \cdot (2t - 2)\\
+&= \langle 6(t^2-3t)^2 (2t - 2), 2(t^2 - 2t)(2t - 2), 0 \rangle
 \end{aligned}
 $$
 
@@ -260,7 +260,7 @@ $$
 $$
 
 89\. **Cusps and noncusps**
-a\. Graph the curve $r(t) = \langle t^3, t^3 \rangle$. Show that $r'(0) = 0$ and the curve does not have a cusp at $t=0$. Explain.+ f(t)u'_3(t)
+a\. Graph the curve $r(t) = \langle t^3, t^3 \rangle$. Show that $r'(0) = 0$ and the curve does not have a cusp at $t=0$.
 >Solution
 $$
 \begin{aligned}

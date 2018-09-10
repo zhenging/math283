@@ -16,12 +16,33 @@ $$
 $$
 
 ##### Alternative Curvature Formula
+We assume that $v(t) \ne 0$ and $a(t) \ne 0$. Because $T = v/|v|$, we begin by writing $v = v|T|$ and differentiating both sides with respect to $t$:
 $$
 \begin{aligned}
-\kappa = \frac{|v \times a|}{|v|^3}
+a  &= \frac{dv}{dt} = \frac{d}{dt} (|v(t)|T(t)) \\
+&= \frac{d}{dt}(|v(t)|)T(t) + |v(t)|\frac{dT}{dt}
 \end{aligned}
 $$
-where $v = r'$ is the velocity and $a=v'$ is the acceleration.
+We now form $v\times  a$:
+$$
+\begin{aligned}
+v \times a &= |v|T \times \Big\lb \frac{d}{dt}(|v(t)|)T + |v(t)|\frac{dT}{dt} \Big\rb \\
+&= \underbrace{|v|T \times \Big(\frac{d}{dt}(|v(t)|)T\Big)}_{\text{(1)}} + \underbrace{|v|T \times |v|\frac{dT}{dt}}_{\text{(2)}}\\
+&= |v|T \times |v|\frac{dT}{dt}
+\end{aligned}
+$$
+(1) - $|v|T$ and $\dfrac{d}{dt}(|v(t)|)T$ form $aT \times bT$, where $a$ and $b$ are scalars. Therefore $aT$ and $bT$ are parallel vectors and $aT \times bT = 0$.
+(2) - $T$ and $\frac{dT}{dt}$ are orthogonal. Therefore, the magnitude of the second term simplifies as follows:
+$$
+\begin{aligned}
+|v\times a| = \Big||v|T \times |v|\frac{dT}{dt}\Big| &= |v||T|\Big||v|\frac{dT}{dt}\Big| \underbrace{\sin\th}_{\text{1}}\\
+&= |v|^2 \Big|\frac{dT}{dt}\Big| \underbrace{|T|}_{\text{1}}\\
+&= |v|^2 \Big|\frac{dT}{dt}\Big|\\
+&= |v|^2 \kappa |v|\\
+&= \kappa |v|^3
+\end{aligned}
+$$
+Solving for the curvature gives $\kappa = \dfrac{|v \times a|}{|v|^3}$, where $v = r'$ is the velocity and $a=v'$ is the acceleration.
 
 #### Principal Unit Normal Vector
 Let $r$ describe a smooth parameterized curve. The principal unit normal vector at a point $P$ on the curve at which $\kappa \ne 0$ is
@@ -54,6 +75,34 @@ a_T &= \frac{d^2s}{dt^2}
 $$
 
 #### The Binormal Vector and Torsion
+Define the _unit binormal vector_ $B = T \times N$. $B$ is orthogonal to both $T$ and $N$. Becase $T$ and $N$ are unit vector, $B$ is also a unit vector. $T, N$ and $B$ form a right handed coordinate system that changes its orientation as we move along the curve. This coordinate system is ofen called the **TNB frame**.
+![Graph](../assets/fig12_110.png)
+The rate at which the curve $C$ twists out of the plane determined by $T$ and $N$ is the rate at which $B$ changes as we move along $C$, which is $\dfrac{dB}{dS}$.
+$$
+\begin{aligned}
+\frac{dB}{ds} &= \frac{d}{ds}(T\times N)\\
+&= \underbrace{\frac{dT}{ds} \times N}_{\text{parallel vectors}} + T \times \frac{dN}{ds}\\
+&= 0 + T \times \frac{dN}{ds}
+\end{aligned}
+$$
+(1) - $\dfrac{dB}{ds}$ is orthogonal to both $T$ and $\dfrac{dN}{ds}$, because it is the cross product of $T$ and $\dfrac{dN}{ds}$.
+(2) - $\dfrac{dB}{ds}$ is orthogonal to $B$. (Theorem 12.8)
+(3) - From (1) and (2), $\dfrac{dB}{ds}$ is orthogonal to both $T$ and $B$, so it must be parallel to $N$. We write
+$$
+\begin{aligned}
+\frac{dB}{ds}  = -\tau N
+\end{aligned}
+$$
+where the scalar $\tau$ is the _torsion_. Notice that $|\dfrac{dB}{ds}| = |-\tau N| = |-\tau|$, so the magnitude of the torsion equals the magnitude of $\dfrac{dB}{ds}$, which is the rate at which the curve twists out of the **TN**-plane.
+We take the dot product of both sides of the equation defining the torsion with $N$.
+$$
+\begin{aligned}
+\frac{dB}{ds} \cdot N &= -\tau N \cdot N\\
+\frac{dB}{ds} \cdot N &= -\tau\\
+\To \tau &= -\frac{dB}{ds} \cdot N
+\end{aligned}
+$$
+
 Let $C$ be a smooth parameterized curve with unit tangent and principal unit normal vectors $T$ and $N$, respectively. Then, at each point of the curve at which the curvature is nonzero, the unit binormal vector is
 $$
 \begin{aligned}
@@ -64,6 +113,37 @@ and the torsion is
 $$
 \begin{aligned}
 \tau = -\frac{dB}{ds} \cdot N
+\end{aligned}
+$$
+
+#### Examples
+(9) **Torsion of a helix** Compute the torsion of the helix $r(t) = \langle a\cos t, a\sin t, bt \rangle$ for $t \ges 0$, with $a > 0$ and $b  > 0$.
+>Solution
+$$
+\begin{aligned}
+T &= \frac{\langle -a\sin t, a\cos t, b \rangle}{\sqrt{a^2 + b^2}}\\
+N &= \langle -\cos t, -\sin t, 0 \rangle\\
+B &= T\times N = \frac{1}{\sqrt{a^2 + b^2}} \begin{vmatrix}
+ i & j & k\\
+-a\sin t & a\cos t & b\\
+ -\cos t & -\sin t & 0
+ \end{vmatrix}\\
+ &= \frac{\langle b\sin t, -b\cos t, a \rangle}{\sqrt{a^2 + b^2}}
+\end{aligned}
+$$
+The next step is to determine $\dfrac{dB}{ds}$, whichy we do in the same way we computed $\dfrac{dT}{ds}$, by writing
+$$
+\begin{aligned}
+\frac{dB}{ds} &= \frac{dB/dt}{ds/dt}  \\
+&=  \frac{\langle b\cos t, b\sin t, 0 \rangle}{\sqrt{a^2 + b^2}} \cdot \frac{1}{\sqrt{a^2\sin^2 t + a^2 \cos^2 t + b^2}}\\
+&= \frac{\langle b\cos t, b\sin t, 0\rangle}{a^2 + b^2}
+\end{aligned}
+$$
+The final step is to compute the torsion
+$$
+\begin{aligned}
+\tau = -\frac{dB}{ds} \cdot N &= -\frac{\langle b\cos t, b\sin t, 0\rangle}{a^2 + b^2} \cdot \langle -\cos t, -\sin t, 0 \rangle\\
+&= \frac{b}{a^2 + b^2}
 \end{aligned}
 $$
 
