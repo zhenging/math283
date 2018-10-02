@@ -21,11 +21,11 @@ $$
 \end{aligned}
 $$
 
-11\. **Points in $\mathbb{R}^3$** Find the coordinates of the vertices A, B, C of the following rectangle. (Graph 11).
+11\. **Points in $\R^3$** Find the coordinates of the vertices A, B, C of the following rectangle. (Graph 11).
 >Solution
 $A(3, -4, 5), B(0, -4, 0), C(0, -4, 5)$
 
-13\. **Plotting points in $\mathbb{R}^3$** For each points P(x, y, z) given below, let A(x, y, 0), B(x, 0, z) and C(0, y, z) be points in the xy-, xz-, and yz-planes, respectively. Plot and label the points A, B, C, and P in $\mathbb{R}^3$.
+13\. **Plotting points in $\R^3$** For each points P(x, y, z) given below, let A(x, y, 0), B(x, 0, z) and C(0, y, z) be points in the xy-, xz-, and yz-planes, respectively. Plot and label the points A, B, C, and P in $\R^3$.
 a. $P(2, 2, 4)$ &emsp; b. $P(1, 2, 5)$ &emsp; c. $P(-2, 0, 5)$\
 >Solution
 Graph (13).

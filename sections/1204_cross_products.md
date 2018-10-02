@@ -184,7 +184,7 @@ Area &= \frac{1}{2} |u \times v|\\
 \end{aligned}
 $$
 
-62–64\. **Scalar triple product** Another operation with vectors is the scalar triple product, defined to be $u \cdot (v \times w)$, for vectors u, v, and w in $\mathbb{R}^3$.
+62–64\. **Scalar triple product** Another operation with vectors is the scalar triple product, defined to be $u \cdot (v \times w)$, for vectors u, v, and w in $\R^3$.
 63\. Consider the parallelepiped (slanted box) determined by the position vectors u, v, and w (see figure). Show that the volume of the parallelepiped is $|u \cdot (v \times w)|$. Graph (63).
 >Solution
 $|u \cdot (v \times w)| = |u||v \times w| |\cos \th|$. Because $|v \times w|$ represents the area of the base, we just need to see that the height of the parallelepiped is $|u||\cos \th|$. Note that the height is given by the scalar project of $u$ on $v \times w$, which has value $|u||\cos \th|$. Thus the given expression represents the volume of the parallelepiped.

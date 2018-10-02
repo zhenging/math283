@@ -176,7 +176,7 @@ c. $\text{proj}_v u = \frac{u \cdot v}{v \cdot v} v = \langle -\frac{4}{5}, -\fr
 d. $w = u-\text{proj}_v u = \langle -\frac{56}{5}, \frac{28}{5} \rangle$ and $w \cdot v = 0$. Therefore, $w$ and $v$ are orthogonal.
 e. $|w| = \frac{28\sqrt 5}{5}$. $|w|$ is the component of $u$ orthogonal to $v$, so it is the distance from $P$ to $\ell$.
 
-69\. **Orthogonal unit vectors in $\mathbb{R}^3$** Consider the vectors $I = \langle \frac{1}{2}, \frac{1}{2}, \frac{1}{\sqrt 2} \rangle$, $J = \langle -\frac{1}{\sqrt 2}, \frac{1}{\sqrt 2}, 0 \rangle$, $K = \langle \frac{1}{2}, \frac{1}{2}, -\frac{1}{\sqrt 2} \rangle$
+69\. **Orthogonal unit vectors in $\R^3$** Consider the vectors $I = \langle \frac{1}{2}, \frac{1}{2}, \frac{1}{\sqrt 2} \rangle$, $J = \langle -\frac{1}{\sqrt 2}, \frac{1}{\sqrt 2}, 0 \rangle$, $K = \langle \frac{1}{2}, \frac{1}{2}, -\frac{1}{\sqrt 2} \rangle$
 a. Sketch **I, J, and K** and show that they are unit vectors.
 b. Show that **I, J, and K** are pairwise orthogonal.
 c. Express the vector $\langle 1, 0, 0 \rangle$ in terms of **I, J, and K.**

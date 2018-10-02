@@ -136,7 +136,7 @@ $$
 The point of intersection is $(4, 3, 3)$.
 Equation of the line, $l(t) = \langle 4, 3-9t, 3 + 6t \rangle$
 
-50–55\. **Skew lines** A pair of lines in $\mathbb{R}^3$ are said to be skew if they are neither parallel nor intersecting. Determine whether the following pairs of lines are parallel, intersecting, or skew. If the lines intersect, determine the point(s) of intersection.
+50–55\. **Skew lines** A pair of lines in $\R^3$ are said to be skew if they are neither parallel nor intersecting. Determine whether the following pairs of lines are parallel, intersecting, or skew. If the lines intersect, determine the point(s) of intersection.
 51\. $r(t) = \langle 1 + 6t, 3-7t, 2 + t \rangle$, $R(s) = \langle 10 + 3s, 6+s, 14 + 4s \rangle$
 >Solution
 $\begin{cases}
