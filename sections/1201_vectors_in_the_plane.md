@@ -11,7 +11,7 @@ The coordinate of a point determines its location, but a given point has no widt
 >Solution
 Place the tail of $v$ at the head of $u$. The sum of $u$ and $v$ is the vector that extends from the tail of $u$ to the head of $v$.
 
-11\. How do you compute the magnitude of $v = \langle v_1, v_2 \rangle$?
+11\. How do you compute the magnitude of $v = \la v_1, v_2 \ra$?
 >Solution
 $|v| = \sqrt{v_1^2 + v_2^2}$
 
@@ -35,7 +35,7 @@ d. $\vec{OG} = -2u + 3v$
 c. $\vec{RQ}$
 >Solution
 Graph 23.
-$\vec{RQ} = \langle 4-(-6), 2-(-1) \rangle = \langle 10, 3 \rangle$
+$\vec{RQ} = \la 4-(-6), 2-(-1) \ra = \la 10, 3 \ra$
 $|\vec{RQ}| = \sqrt{10^2 + 3^2} = \sqrt{109}$
 
 24-27\. **Components and equality** Define the points $P(-3, -1), Q(-1, 2), R(1, 2), S(3, 5), T(4, 2)$ and $U(6, 4)$
@@ -43,24 +43,24 @@ $|\vec{RQ}| = \sqrt{10^2 + 3^2} = \sqrt{109}$
 >Solution
 Graph 25.
 
-28-33\. **Vector operations** Let $u = \langle 4, -2\rangle, v = \langle -4, 6\rangle$ and $w = \langle 0, 8\rangle$. Express the following vectors in the form $\langle a, b\rangle$.
+28-33\. **Vector operations** Let $u = \la 4, -2\ra, v = \la -4, 6\ra$ and $w = \la 0, 8\ra$. Express the following vectors in the form $\la a, b\ra$.
 31\. $w-3v$
 >Solution
-$w-3v = \langle 0-3\times(-4), 8-3\times 6)\rangle = \langle 12, -10 \rangle$
+$w-3v = \la 0-3\times(-4), 8-3\times 6)\ra = \la 12, -10 \ra$
 
 32\. $10u - 3v + w$
 >Solution
-$10u - 3v + w = \langle 10 \times 4 - 3\times(-4) + 0, 10 \times (-2) - 3\times 6 + 8\rangle = \langle 28, -30 \rangle$
+$10u - 3v + w = \la 10 \times 4 - 3\times(-4) + 0, 10 \times (-2) - 3\times 6 + 8\ra = \la 28, -30 \ra$
 
-34-41\. **Vector operations** Let $u = \langle 3, -4\rangle, v = \langle 1, 1\rangle$ and $w = \langle -1, 0\rangle$. Carry out the following computations.
+34-41\. **Vector operations** Let $u = \la 3, -4\ra, v = \la 1, 1\ra$ and $w = \la -1, 0\ra$. Carry out the following computations.
 36\. Find $|u+v+w|$.
 >Solution
-$u+v+w = \langle 3 + 1 -1, -4 + 1 + 0 \rangle = \langle 3, -3 \rangle$
+$u+v+w = \la 3 + 1 -1, -4 + 1 + 0 \ra = \la 3, -3 \ra$
 $|u+v+w| = \sqrt{3^2 + (-3)^2} = 3\sqrt 2$
 
 39\. Find two vectors parallel to $v$ with three times the magnitude of $v$.
 >Solution
-$3v = \langle 3, 3 \rangle$, $-3v = \langle -3, -3 \rangle$
+$3v = \la 3, 3 \ra$, $-3v = \la -3, -3 \ra$
 
 42-47\. **Unit vectors** Define the points $P(-4, 1), Q(3, -4)$ and $R(2, 6)$. Carry out the following calculations.
 43\. Express $\vec{QR}$ in the form of $ai + bj$,
@@ -69,8 +69,8 @@ $\vec{QR} = (2-3)\text{i} + (6-(-4))\text{j} = -\text{i} + 10\text{j}$
 
 45\. Find two unit vectors parallel to $\vec{PR}$.
 >Solution
-$v_1\frac{\vec{PR}}{|\vec{PR}|} = \frac{1}{\sqrt{61}}\langle 6, 5 \rangle$
-$v_2 = -\frac{1}{\sqrt{61}}\langle 6, 5 \rangle$
+$v_1\frac{\vec{PR}}{|\vec{PR}|} = \frac{1}{\sqrt{61}}\la 6, 5 \ra$
+$v_2 = -\frac{1}{\sqrt{61}}\la 6, 5 \ra$
 
 51\. **Airplane in a wind** An airplane flies horizontally from east to west at 320 mi/hr relative to the air. If it flies in a steady 40 mi/hr wind that blows horizontally toward the southwest ($45\degree$ south of west), find the speed and direction of the airplane relative to the ground.
 >Solution
@@ -91,9 +91,9 @@ The speed of the airplane to the ground is 349.43 mi/hr and the direction is 4.6
 Graph 52. Let the velocity of the canoe relative to water be $v_i$, the velocity of the current be $v_c$, and the velocity of the canoe relative to the shore be $v_f$.
 $$
 \begin{aligned}
-v_i &= \langle  -4, 0\rangle\\
-v_c &= 2\langle -\frac{\sqrt 2}{2}, \frac{\sqrt 2}{2}  \rangle\\
-v_f &= v_i + v_c = \langle -4-\sqrt 2, \sqrt 2 \rangle\\
+v_i &= \la  -4, 0\ra\\
+v_c &= 2\la -\frac{\sqrt 2}{2}, \frac{\sqrt 2}{2}  \ra\\
+v_f &= v_i + v_c = \la -4-\sqrt 2, \sqrt 2 \ra\\
 \th &= \tan^{-1}(\frac{\sqrt 2}{-4-\sqrt 2})
 \end{aligned}
 $$
@@ -104,10 +104,10 @@ Let the force vector on the two chains be $F_1$ and $F_2$, and the weight of the
 $$
 \begin{aligned}
 \begin{gathered}
-W = \langle 0, -500 \rangle\\
-F_1 + F_2 + W = \langle 0, 0 \rangle\\
-F_1 = |F_1|\langle \frac{\sqrt 2}{2}, \frac{\sqrt 2}{2} \rangle\\
-F_2 = |F_2|\langle -\frac{\sqrt 2}{2}, \frac{\sqrt 2}{2} \rangle
+W = \la 0, -500 \ra\\
+F_1 + F_2 + W = \la 0, 0 \ra\\
+F_1 = |F_1|\la \frac{\sqrt 2}{2}, \frac{\sqrt 2}{2} \ra\\
+F_2 = |F_2|\la -\frac{\sqrt 2}{2}, \frac{\sqrt 2}{2} \ra
 \end{gathered}
 \To &\begin{cases}
 \frac{\sqrt 2}{2}|F_1| - \frac{\sqrt 2}{2}|F_2| + 0 = 0\\
@@ -121,10 +121,10 @@ $$
 >Solution
 $$
 \begin{aligned}
-F_1 &= \langle -|F_1|\cos \frac{\pi}{4}, |F_1|\sin \frac{\pi}{4} \rangle = \langle -50\sqrt 2, 50\sqrt 2 \rangle\\
-F_2 &= \langle |F_2|\cos \frac{\pi}{6}, |F_2|\sin \frac{\pi}{6} \rangle = \langle 30\sqrt 3, 30 \rangle\\
-F_3 &= \langle -|F_3|\cos \frac{\pi}{3}, -|F_3|\sin \frac{\pi}{3} \rangle = \langle -75, -75\sqrt 3\rangle\\
-F_{total} &= F_1 + F_2 + F_3 = \langle -50\sqrt 2 + 30\sqrt 3 -75, 50\sqrt 2 + 30 - 75\sqrt 3\rangle\\
+F_1 &= \la -|F_1|\cos \frac{\pi}{4}, |F_1|\sin \frac{\pi}{4} \ra = \la -50\sqrt 2, 50\sqrt 2 \ra\\
+F_2 &= \la |F_2|\cos \frac{\pi}{6}, |F_2|\sin \frac{\pi}{6} \ra = \la 30\sqrt 3, 30 \ra\\
+F_3 &= \la -|F_3|\cos \frac{\pi}{3}, -|F_3|\sin \frac{\pi}{3} \ra = \la -75, -75\sqrt 3\ra\\
+F_{total} &= F_1 + F_2 + F_3 = \la -50\sqrt 2 + 30\sqrt 3 -75, 50\sqrt 2 + 30 - 75\sqrt 3\ra\\
 |F_{total}| &= \sqrt{(-50\sqrt 2 + 30\sqrt 3 -75)^2 + (50\sqrt 2 + 30 - 75\sqrt 3)^2}\\
 \th &= \tan^{-1}\frac{50\sqrt 2 + 30 - 75\sqrt 3}{-50\sqrt 2 + 30\sqrt 3 -75}
 \end{aligned}
@@ -132,14 +132,14 @@ $$
 
 61\. **Unit vectors**
 a. Find two unit vectors parallel to $v=6i-8j$.
-b. Find $b$ if $v=\langle \frac{1}{3}, b\rangle$ is a unit vector.
+b. Find $b$ if $v=\la \frac{1}{3}, b\ra$ is a unit vector.
 c. Find all values of a such that $w = ai - \frac{a}{3}\text{j} is a unit vector$
 >Solution
-a. $v_1 = \frac{v}{|v|} = \frac{1}{10}\langle 6, -8 \rangle$ and $v_2 = -v_1 = -\frac{1}{10}\langle 6, -8 \rangle$.
+a. $v_1 = \frac{v}{|v|} = \frac{1}{10}\la 6, -8 \ra$ and $v_2 = -v_1 = -\frac{1}{10}\la 6, -8 \ra$.
 b. $|v| = \sqrt{(\frac{1}{3})^2 + b^2} = 1 \To b = \pm \frac{2}{3}\sqrt 2$
 c. $|w| = \sqrt{a^2 + (-\frac{a}{3})^2} = 1 \To a = \pm \frac{3}{\sqrt{10}}$
 
-70-71\. **Solving vector equations** Solve the following pairs of equations for the vectors $u$ and $v$. Assume $i=\langle 1, 0 \rangle$ and $j=\langle0, 1 \rangle$
+70-71\. **Solving vector equations** Solve the following pairs of equations for the vectors $u$ and $v$. Assume $i=\la 1, 0 \ra$ and $j=\la0, 1 \ra$
 71\. $2u+3v = i, u-v = j$
 >Solution
 $$
@@ -156,8 +156,8 @@ u_2 = \frac{3}{5}\\
 v_2 = -\frac{7}{10}
 \end{cases}
 \To\begin{cases}
-u = \langle \frac{1}{5}, \frac{3}{5} \rangle\\
-v = \langle \frac{1}{5}, -\frac{2}{5} \rangle\\
+u = \la \frac{1}{5}, \frac{3}{5} \ra\\
+v = \la \frac{1}{5}, -\frac{2}{5} \ra\\
 \end{cases}
 \end{aligned}
 $$
@@ -165,14 +165,14 @@ $$
 80\. **Mass on a plane** A 100-kg object rests on an inclined plane at an angle of $30\degree$ to the floor. Find the components of the force perpendicular to and parallel to the plane. (The vertical component of the force exerted by an object of mass m is its weight, which is mg, where $g = 9.8 m/s^2$ is the acceleration due to gravity.) Graph 80.
 >Solution
 Let the force vector parallel to the plane be $F_x$, and the force vector normal to the plane be $F_y$.
-$F = 980 \langle \cos(\frac{\pi}{3}, -\sin \frac{\pi}{3}) \rangle = \langle 490, -490\sqrt 3 \rangle$.
-$F_x = \langle 490, 0 \rangle$ and $F_y = \langle 0, -490\sqrt 3\rangle$
+$F = 980 \la \cos(\frac{\pi}{3}, -\sin \frac{\pi}{3}) \ra = \la 490, -490\sqrt 3 \ra$.
+$F_x = \la 490, 0 \ra$ and $F_y = \la 0, -490\sqrt 3\ra$
 
 87\. **Magnitude of scalar multiple** Prove that $|cv| = |c| |v|$, where $c$ is a scalar and $v$ is a vector.
 >Solution
 $$
 \begin{aligned}
-|cv| &= |\langle cv_1, cv_2 \rangle|\\
+|cv| &= |\la cv_1, cv_2 \ra|\\
 &= \sqrt{(cv_1)^2 + (cv_2)^2}\\
 &= \sqrt{c^2(v_1^2 + v_2^2)}\\
 &= |c| \sqrt{v_1^2 + v_2^2}\\

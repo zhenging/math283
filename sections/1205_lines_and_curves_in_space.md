@@ -3,79 +3,79 @@
 #### Homework
 p826: 1-3, 5-27odd, 31, 33, 35, 38, 41, 44, 45, 49, 51, 57, 61, 67, 75
 
-1\. How many independent variables does the function $r(t) = \langle f(t), g(t), h(t) \rangle$ have?
+1\. How many independent variables does the function $r(t) = \la f(t), g(t), h(t) \ra$ have?
 >Solution
 One. Just $t$.
 
-3\. Why is $r(t) = \langle f(t), g(t), h(t) \rangle$ called a vector-valued function?
+3\. Why is $r(t) = \la f(t), g(t), h(t) \ra$ called a vector-valued function?
 >Solution
 For every input $t$, the output $r(t)$ is a vector.
 
 5\. How do you find an equation for the line through the points $P_0(x_0, y_0, z_0)$ to  $P_1(x_1, y_1, z_1)$?
 >Solution
-$\vec{P_0P_1} = \langle x_1-x_0, y_1-y_0, z_1-z_0 \rangle$
-$r(t) = \langle x_0 + (x_1-x_0)t, y_0 + (y_1-y_0)t, z_0 + (z_1-z_0)t \rangle$
+$\vec{P_0P_1} = \la x_1-x_0, y_1-y_0, z_1-z_0 \ra$
+$r(t) = \la x_0 + (x_1-x_0)t, y_0 + (y_1-y_0)t, z_0 + (z_1-z_0)t \ra$
 
-7\. How do you evaluate $\dlim_{t\to a} r(t)$, where $r(t) = \langle f(t), g(t), h(t) \rangle$?
+7\. How do you evaluate $\dlim_{t\to a} r(t)$, where $r(t) = \la f(t), g(t), h(t) \ra$?
 >Solution
-$\dlim_{t \to a} f(t) = L_1, \dlim_{t \to a} g(t) = L_2, \dlim_{t \to a} h(t) = L_3$, then $\dlim_{t\to a} r(t) = \langle L_1, L_2, L_3 \rangle$.
+$\dlim_{t \to a} f(t) = L_1, \dlim_{t \to a} g(t) = L_2, \dlim_{t \to a} h(t) = L_3$, then $\dlim_{t\to a} r(t) = \la L_1, L_2, L_3 \ra$.
 
 9–24\. **Equations of lines** Find equations of the following lines.
-9\. The line through $\langle 0, 0, 1 \rangle$ in the direction of the vector $v=\langle 4, 7, 0 \rangle$
+9\. The line through $\la 0, 0, 1 \ra$ in the direction of the vector $v=\la 4, 7, 0 \ra$
 >Solution
-$r(t) = \langle 4t, 7t, 1 \rangle$
+$r(t) = \la 4t, 7t, 1 \ra$
 
-11\. The line through $\langle 0, 0, 1 \rangle$ parallel to the y-axis.
+11\. The line through $\la 0, 0, 1 \ra$ parallel to the y-axis.
 >Solution
-Direction vector,  $v =\langle 0, 1, 0 \rangle$. Equation, $r(t) = \langle 0, t, 1 \rangle$
+Direction vector,  $v =\la 0, 1, 0 \ra$. Equation, $r(t) = \la 0, t, 1 \ra$
 
-13\. The line through $\langle 0, 0, 0 \rangle$ and $\langle 1, 2, 3 \rangle$
+13\. The line through $\la 0, 0, 0 \ra$ and $\la 1, 2, 3 \ra$
 >Solution
-Direction vection, $v =\langle 1, 2, 3 \rangle$. Equation, $r(t) = \langle t, 2t, 3t \rangle$
+Direction vection, $v =\la 1, 2, 3 \ra$. Equation, $r(t) = \la t, 2t, 3t \ra$
 
-15\. The line through $\langle -3, 4, 6 \rangle$ and $\langle 5, -1, 0 \rangle$
+15\. The line through $\la -3, 4, 6 \ra$ and $\la 5, -1, 0 \ra$
 >Solution
-Direction vection, $v =\langle 8, -5, -6 \rangle$. Euqation, $r(t) = \langle -3+8t, 4-5t, 6-6t \rangle$
+Direction vection, $v =\la 8, -5, -6 \ra$. Euqation, $r(t) = \la -3+8t, 4-5t, 6-6t \ra$
 
-17\. The line through $\langle 0, 0, 0 \rangle$ and is parallel to the line $r(t) = \langle 3-2t, 5+8t, 7-4t \rangle$.
+17\. The line through $\la 0, 0, 0 \ra$ and is parallel to the line $r(t) = \la 3-2t, 5+8t, 7-4t \ra$.
 >Solution
-Direction vection, $v =\langle -2, 8, -4 \rangle$. Euqation, $r(t) = \langle -2t, 8t, -4t \rangle$
+Direction vection, $v =\la -2, 8, -4 \ra$. Euqation, $r(t) = \la -2t, 8t, -4t \ra$
 
-19\. The line through $\langle 0, 0, 0 \rangle$ and is perpendicular to both $u=\langle 1, 0, 2 \rangle$ and $v = \langle 0, 1, 1 \rangle$.
+19\. The line through $\la 0, 0, 0 \ra$ and is perpendicular to both $u=\la 1, 0, 2 \ra$ and $v = \la 0, 1, 1 \ra$.
 >Solution
 Direction vector, $w = u \cdot v = \begin{vmatrix}
   i & j & k\\
   1 & 0 & 2\\
   0 & 1 & 1
- \end{vmatrix} = \langle -2, -1, 1 \rangle$
-Equation, $r(t) = \langle -2t, -t, t \rangle$
+ \end{vmatrix} = \la -2, -1, 1 \ra$
+Equation, $r(t) = \la -2t, -t, t \ra$
 
-21\. The line through $\langle -2, 5, 3 \rangle$ and is perpendicular to both $u=\langle 1, 1, 2 \rangle$ and the x-axis.
+21\. The line through $\la -2, 5, 3 \ra$ and is perpendicular to both $u=\la 1, 1, 2 \ra$ and the x-axis.
 >Solution
 Direction vector, $w = u \cdot v = \begin{vmatrix}
   i & j & k\\
   1 & 1 & 2\\
   1 & 0 & 0
- \end{vmatrix} = \langle 0, 2, -1 \rangle$
-Equation, $r(t) = \langle -2, 5+2t, 3-t \rangle$.
+ \end{vmatrix} = \la 0, 2, -1 \ra$
+Equation, $r(t) = \la -2, 5+2t, 3-t \ra$.
 
-23\. The line through $\langle 1, 2, 3 \rangle$ that is perpendicular to the lines $r_1(t) = \langle 3-2t, 5+8t, 7-4t \rangle$, and $r_2(t) = \langle -2t, 5+t, 7-t \rangle$.
+23\. The line through $\la 1, 2, 3 \ra$ that is perpendicular to the lines $r_1(t) = \la 3-2t, 5+8t, 7-4t \ra$, and $r_2(t) = \la -2t, 5+t, 7-t \ra$.
 >Solution
 Direction vector, $w = u \cdot v = \begin{vmatrix}
   i & j & k\\
   -2 & 8 & -4\\
   -2 & 1 & -1
- \end{vmatrix} = \langle -4, 6, 14 \rangle$
-Equation, $r(t) = \langle 1-4t, 2+6t, 3+14t \rangle$.
+ \end{vmatrix} = \la -4, 6, 14 \ra$
+Equation, $r(t) = \la 1-4t, 2+6t, 3+14t \ra$.
 
 25–28\. **Line segments** Find an equation of the line segment joining the first point to the second point.
 25\. $(0, 0, 0)$, and $(1, 2, 3)$.
 >Solution
-Direction vection, $v = \langle 1, 2, 3 \rangle$. Equation, $r(t) = \langle t, 2t, 3t \rangle$, for $0 \les t \les 1$.
+Direction vection, $v = \la 1, 2, 3 \ra$. Equation, $r(t) = \la t, 2t, 3t \ra$, for $0 \les t \les 1$.
 
 27\. $(2, 4, 8)$, and $(7, 5, 3)$.
 >Solution
-Direction vection, $v = \langle 5, 1, -5 \rangle$. Equation, $r(t) = \langle 2 + 5t, 4 + t, 8-5t \rangle$, for $0 \les t \les 1$.
+Direction vection, $v = \la 5, 1, -5 \ra$. Equation, $r(t) = \la 2 + 5t, 4 + t, 8-5t \ra$, for $0 \les t \les 1$.
 
 29–36\. **Curves in space** Graph the curves described by the following functions, indicating the direction of positive orientation. Try to antici pate the shape of the curve before using a graphing utility.
 31\. $r(t) = \cos t \text{i} + \text{j} + \sin t \text{k}$, for $0 \les t \les 2\pi$.
@@ -114,13 +114,13 @@ $$
 \end{aligned}
 $$
 
-49\. **Point of intersection** Determine the equation of the line that is perpendicular to the lines $r(t) = \langle 4t, 1 + 2t, 3t \rangle$ and $R(s) = \langle -1 + s, -7+2s, -12 + 3s \rangle$ and pass through the point of intersection of the line $r$ and $R$.
+49\. **Point of intersection** Determine the equation of the line that is perpendicular to the lines $r(t) = \la 4t, 1 + 2t, 3t \ra$ and $R(s) = \la -1 + s, -7+2s, -12 + 3s \ra$ and pass through the point of intersection of the line $r$ and $R$.
 >Solution
 Direction vector, $v = \begin{vmatrix}
  i & j & k\\
  4 & 2 & 3\\
  1 & 2 & 3
- \end{vmatrix} = \langle 0, -9, 6 \rangle$.
+ \end{vmatrix} = \la 0, -9, 6 \ra$.
  Intersection
  $$
  \begin{aligned}
@@ -134,10 +134,10 @@ s = 5
 \end{aligned}
 $$
 The point of intersection is $(4, 3, 3)$.
-Equation of the line, $l(t) = \langle 4, 3-9t, 3 + 6t \rangle$
+Equation of the line, $l(t) = \la 4, 3-9t, 3 + 6t \ra$
 
 50–55\. **Skew lines** A pair of lines in $\R^3$ are said to be skew if they are neither parallel nor intersecting. Determine whether the following pairs of lines are parallel, intersecting, or skew. If the lines intersect, determine the point(s) of intersection.
-51\. $r(t) = \langle 1 + 6t, 3-7t, 2 + t \rangle$, $R(s) = \langle 10 + 3s, 6+s, 14 + 4s \rangle$
+51\. $r(t) = \la 1 + 6t, 3-7t, 2 + t \ra$, $R(s) = \la 10 + 3s, 6+s, 14 + 4s \ra$
 >Solution
 $\begin{cases}
 1 + 6t = 10 + 3s\\
@@ -160,7 +160,7 @@ t + 2 \ges 0\\
 
 60–63\. **Line-plane intersections** Find the point (if it exists) at which
 the following planes and lines intersect.
-61\. $z=4; r(t) = \langle 2t+1, -t+4, t-6 \rangle$
+61\. $z=4; r(t) = \la 2t+1, -t+4, t-6 \ra$
 >Solution
 $t-6 = 4 \To t = 10$. The intersection point is $(21, -6, 4)$.
 
@@ -173,7 +173,7 @@ d -> C. (Circular helix, elongated along the x-axis)
 e -> A. (Closed curve)
 f -> B. (Circular helix, elongated along the y-axis)
 
-75\. Graph the curve $r(t) = \langle \frac{1}{2}\sin{2t}, \frac{1}{2}(1-\cos{2t}), \cos t \rangle$ and and prove that it lies on the surface of a sphere centered at the origin.
+75\. Graph the curve $r(t) = \la \frac{1}{2}\sin{2t}, \frac{1}{2}(1-\cos{2t}), \cos t \ra$ and and prove that it lies on the surface of a sphere centered at the origin.
 >Solution
 Graph 75. To prove the curve lies on the surface of a sphere centered at the origin, we need to show that the magnitude of every point on the curve should be constant.
 $$

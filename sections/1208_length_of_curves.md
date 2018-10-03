@@ -12,7 +12,7 @@ $$
 ![Graph](../assets/fig12_95.png)
 
 #### Arc Length for Vector Functions
-Consider the parameterized curve $r(t) = \langle f(t), g(t), h(t) \rangle$, where $f', g'$ and $h'$ are continuous, and the curve is traversed once for $a \les t \les b$. The arc length of the curve between $(f(a), g(a), h(a))$ and $f(b), g(b), h(b)$ is
+Consider the parameterized curve $r(t) = \la f(t), g(t), h(t) \ra$, where $f', g'$ and $h'$ are continuous, and the curve is traversed once for $a \les t \les b$. The arc length of the curve between $(f(a), g(a), h(a))$ and $f(b), g(b), h(b)$ is
 $$
 \begin{aligned}
 L = \int_a^b \sqrt{f'(t)^2 + g'(t)^2 + h'(t)^2} dt = \int_a^b |r'(t)| dt

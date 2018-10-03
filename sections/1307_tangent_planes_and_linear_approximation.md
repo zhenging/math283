@@ -18,13 +18,13 @@ a. Find the equation of the plane tangent to the ellipsoid at $(0, 4, \frac{3}{5
 b. At what points on the ellipsoid is the tangent plane horizontal?
 >Solution
 a. $0 \cdot (x-0) + 4\cdot (y-4) + \frac{6}{5}(z-\frac{3}{5}) = 0$
-b. A horizontal plane has a normal vector of the form $\langle 0, 0, c\rangle$, where $c \ne 0$. $x=0, y=0 \to z=\pm 1$. The horizontal plane occurs at $(0, 0, 1)$ and $(0, 0, -1)$.
+b. A horizontal plane has a normal vector of the form $\la 0, 0, c\ra$, where $c \ne 0$. $x=0, y=0 \to z=\pm 1$. The horizontal plane occurs at $(0, 0, 1)$ and $(0, 0, -1)$.
 
 ##### Tangent Planes for $z = f(x, y)$
 The equation $z = f(x, y)$ is written as $F(x, y, z) = z-f(x, y) = 0$, and the gradient of $F$ at the point $(a, b, f(a, b))$ is
 $$
 \begin{aligned}
-\nabla F(a, b, f(a, b)) = \langle -f_x(a, b), -f_y(a, b), 1 \rangle
+\nabla F(a, b, f(a, b)) = \la -f_x(a, b), -f_y(a, b), 1 \ra
 \end{aligned}
 $$
 Proceeding as before, an equation of the plane tangent to the surface $z = f(x, y)$ at the point $(a, b, f(a, b))$ is
@@ -69,7 +69,7 @@ $$
 \end{aligned}
 $$
 
-##### Example 4 Approximating functon change
+##### Example 4 Approximating function change
 Let $f(x, y) = \dfrac{5}{x^2 + y^2}$
 Approximate the change in $z$ when the independent variable changed from $(-1, 2)$ to $(-0.93, 1,94)$
 >Solution

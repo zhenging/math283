@@ -117,32 +117,32 @@ $$
 $$
 
 #### Examples
-(9) **Torsion of a helix** Compute the torsion of the helix $r(t) = \langle a\cos t, a\sin t, bt \rangle$ for $t \ges 0$, with $a > 0$ and $b  > 0$.
+(9) **Torsion of a helix** Compute the torsion of the helix $r(t) = \la a\cos t, a\sin t, bt \ra$ for $t \ges 0$, with $a > 0$ and $b  > 0$.
 >Solution
 $$
 \begin{aligned}
-T &= \frac{\langle -a\sin t, a\cos t, b \rangle}{\sqrt{a^2 + b^2}}\\
-N &= \langle -\cos t, -\sin t, 0 \rangle\\
+T &= \frac{\la -a\sin t, a\cos t, b \ra}{\sqrt{a^2 + b^2}}\\
+N &= \la -\cos t, -\sin t, 0 \ra\\
 B &= T\times N = \frac{1}{\sqrt{a^2 + b^2}} \begin{vmatrix}
  i & j & k\\
 -a\sin t & a\cos t & b\\
  -\cos t & -\sin t & 0
  \end{vmatrix}\\
- &= \frac{\langle b\sin t, -b\cos t, a \rangle}{\sqrt{a^2 + b^2}}
+ &= \frac{\la b\sin t, -b\cos t, a \ra}{\sqrt{a^2 + b^2}}
 \end{aligned}
 $$
 The next step is to determine $\dfrac{dB}{ds}$, whichy we do in the same way we computed $\dfrac{dT}{ds}$, by writing
 $$
 \begin{aligned}
 \frac{dB}{ds} &= \frac{dB/dt}{ds/dt}  \\
-&=  \frac{\langle b\cos t, b\sin t, 0 \rangle}{\sqrt{a^2 + b^2}} \cdot \frac{1}{\sqrt{a^2\sin^2 t + a^2 \cos^2 t + b^2}}\\
-&= \frac{\langle b\cos t, b\sin t, 0\rangle}{a^2 + b^2}
+&=  \frac{\la b\cos t, b\sin t, 0 \ra}{\sqrt{a^2 + b^2}} \cdot \frac{1}{\sqrt{a^2\sin^2 t + a^2 \cos^2 t + b^2}}\\
+&= \frac{\la b\cos t, b\sin t, 0\ra}{a^2 + b^2}
 \end{aligned}
 $$
 The final step is to compute the torsion
 $$
 \begin{aligned}
-\tau = -\frac{dB}{ds} \cdot N &= -\frac{\langle b\cos t, b\sin t, 0\rangle}{a^2 + b^2} \cdot \langle -\cos t, -\sin t, 0 \rangle\\
+\tau = -\frac{dB}{ds} \cdot N &= -\frac{\la b\cos t, b\sin t, 0\ra}{a^2 + b^2} \cdot \la -\cos t, -\sin t, 0 \ra\\
 &= \frac{b}{a^2 + b^2}
 \end{aligned}
 $$

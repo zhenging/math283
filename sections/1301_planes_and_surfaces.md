@@ -8,22 +8,22 @@ Given a fixed Point $P_0$ and a **nonzero normal vector n**, the set of pointsP 
 ![Graph](../assets/1301.png)
 
 ##### Genernal Equations of a Plane in $\R^3$
-The plane passing through the point $P_0(x_0, y_0, z_0)$ with a nonzero normal vector $n= \langle a, b, c \rangle$ is described by the equation
+The plane passing through the point $P_0(x_0, y_0, z_0)$ with a nonzero normal vector $n= \la a, b, c \ra$ is described by the equation
 $$
 \begin{aligned}
-&a(x-x_0) + b(y-y_0) + c(z-z_0) = 0\\
+a(x-x_0) + b(y-y_0) + c(z-z_0) = 0
 \end{aligned}
 $$
 Or
 $$
 \begin{aligned}
-&ax + by + cz = d
+ax + by + cz = d
 \end{aligned}
 $$
 where $d = ax_0 + by_0  + cz_0$
 
 ##### Examples
-1\. **Equations of a plane** Find an equation of the plane passing through $P_0(2, -3, 4)$ with a normal vector $n= \langle -1, 2, 3 \rangle$
+1\. **Equations of a plane** Find an equation of the plane passing through $P_0(2, -3, 4)$ with a normal vector $n= \la -1, 2, 3 \ra$
 >Solution
 $-x+2y+3z = 4$
 
@@ -36,7 +36,7 @@ a. Find a vector normal to Q.
 b. Find the points at which Q intersects the coordinate axes and plot Q.
 c. Describe the sets of points at which Q intersects the yz-plane, the xz-plane, and the xy-plane.
 >Solution
-a. $\langle 2, -3, -1 \rangle$
+a. $\la 2, -3, -1 \ra$
 b. x-intercept, $(3, 0, 0)$; y-intercept, $(0, -2, 0)$; z-intercept, $(0, 0, -6)$;
 c. Let $x=0$, Q gives $-3y-z=6$m which decribes a line in yz-plane. Similar for xy-plane and xz-plane.
 
@@ -46,7 +46,7 @@ Two distinct planes are **parallel** if their respective normal vectors are para
 ##### Examples
 6\. **Intersecting planes** Find an equation of the line of intersection of the planes Q: $x+2y+z=5$ and R: $2x+y-z=7$.
 >Solution
-$r(t)=\langle 3-3t, 1 + 3t, -3t \rangle$
+$r(t)=\la 3-3t, 1 + 3t, -3t \ra$
 
 #### Cylinders and Traces
 

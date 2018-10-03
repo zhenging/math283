@@ -9,15 +9,15 @@ $u \times v = |u||v|$
 
 7–8\. **Cross products from the definition** Find the cross product $u \times v$ in each figure.
 >Solution
-7\. $u \times v = \langle 3, 0, 0 \rangle \times \langle 0, 5, 0 \rangle = \langle 0, 0, 15 \rangle$.
-8\. $u \times v = \langle -4, 0, 0 \rangle \times \langle 0, 0, 2 \rangle = \langle 0, 8, 0 \rangle$.
+7\. $u \times v = \la 3, 0, 0 \ra \times \la 0, 5, 0 \ra = \la 0, 0, 15 \ra$.
+8\. $u \times v = \la -4, 0, 0 \ra \times \la 0, 0, 2 \ra = \la 0, 8, 0 \ra$.
 
 9–12\. **Cross products from the definition** Sketch the following vectors u and v. Then compute $|u \times v|$ and show the cross product on your sketch.
-9\. $u=\langle 0, -2, 0 \rangle, v=\langle 0, 1, 0 \rangle$
+9\. $u=\la 0, -2, 0 \ra, v=\la 0, 1, 0 \ra$
 >Solution
 u and v are parallel. $u \times v = 0$.
 
-10\. $u=\langle 0, 4, 0 \rangle, v=\langle 0, 0, 8 \rangle$
+10\. $u=\la 0, 4, 0 \ra, v=\la 0, 0, 8 \ra$
 >Solution
 u and v are orthogonal. $u \times v = |u||v| = 4 \times 8 = 32$.
 
@@ -95,7 +95,7 @@ $$
 $$
 \begin{aligned}
 Area &= \frac{1}{2} |\vec{AB} \times \vec{AC}|\\
-\vec{AB} &= \langle 3, 0, 1 \rangle \quad \vec{AC} = \langle 1, 1, 0 \rangle\\
+\vec{AB} &= \la 3, 0, 1 \ra \quad \vec{AC} = \la 1, 1, 0 \ra\\
 \vec{AB} \times \vec{AC} &= \begin{vmatrix}
    i & j & k\\
    3 & 0 & 1\\
@@ -106,7 +106,7 @@ Area &= \frac{1}{2} |-i + j + 3k| = \frac{\sqrt{11}}{2}
 $$
 
 29–34\. **Computing cross products** Find the cross products $u \times v$ and $v \times u$ for the following vectors $u$ and $v$.
-29\. $u=\langle 3, 5, 0 \rangle, v = \langle 0, 3, -6 \rangle$
+29\. $u=\la 3, 5, 0 \ra, v = \la 0, 3, -6 \ra$
 >Solution
 $u \times v = \begin{vmatrix}
    i & j & k\\
@@ -115,7 +115,7 @@ $u \times v = \begin{vmatrix}
 \end{vmatrix} = -30i+18j + 9k$
 $v \times u = -(u \times v) = 30i -18j - 9k$
 
-32\. $u=\langle 3, -4, 6 \rangle, v = \langle 1, 2, -1 \rangle$
+32\. $u=\la 3, -4, 6 \ra, v = \la 1, 2, -1 \ra$
 >Solution
 $u \times v = \begin{vmatrix}
    i & j & k\\
@@ -125,7 +125,7 @@ $u \times v = \begin{vmatrix}
 $v \times u = -(u \times v) = 8i -9j - 10k$
 
 35–38\. **Normal vectors** Find a vector normal to the given vectors.
-35\. $\langle 0, 1, 2 \rangle$ and $\langle -2, 0, 3 \rangle$.
+35\. $\la 0, 1, 2 \ra$ and $\la -2, 0, 3 \ra$.
 >Solution
 A vectoc normal to u and v is parallel to $u \times v$. One normal vector is
 $\begin{vmatrix}
@@ -139,7 +139,7 @@ $\begin{vmatrix}
 $|\tau| = |r| |F| \sin \th = (0.25m)(20N)\sin(45\degree) = \frac{5\sqrt 2}{2}N\cdot m$
 
 41–44\. **Computing torque** Answer the following questions about torque.
-42\. Let $r=\vec{OP} = i-j+2k$. A force $F=\langle 10, 10, 0 \rangle$ is applied at $P$. Find the torque about $O$ that is produced.
+42\. Let $r=\vec{OP} = i-j+2k$. A force $F=\la 10, 10, 0 \ra$ is applied at $P$. Find the torque about $O$ that is produced.
 >Solution
 $$
 \begin{aligned}
@@ -170,7 +170,7 @@ $$
 The magnitude of the force is $20\sqrt 2$N and the angle of the force is 135 degreee with the positive x-axis.
 
 54–57\. **Areas of triangles** Find the area of the following triangles $T$. (The area of a triangle is half the area of the corresponding parallelogram.)
-55\. The side of $T$ are $u=\langle 3, 3, 3 \rangle, v= \langle 6, 0, 6 \rangle$, and $u-v$
+55\. The side of $T$ are $u=\la 3, 3, 3 \ra, v= \la 6, 0, 6 \ra$, and $u-v$
 >Solution
 $$
 \begin{aligned}

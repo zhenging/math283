@@ -1,9 +1,9 @@
 ### Section 12.7 Motion In Space
 
 #### Position, Velocity, Speed, Acceleration
-let the _position_ of an object moving in the three-dimensional space be given by $r(t) = \langle x(t), y(t), z(t) \rangle$, for $t \ges 0$. The _velocity_ of the object is
+let the _position_ of an object moving in the three-dimensional space be given by $r(t) = \la x(t), y(t), z(t) \ra$, for $t \ges 0$. The _velocity_ of the object is
 $$
-v(t) = r'(t) = \langle x'(t), y'(t), z'(t)\rangle
+v(t) = r'(t) = \la x'(t), y'(t), z'(t)\ra
 $$
 The _speed_ of the object is the scalar function
 $$

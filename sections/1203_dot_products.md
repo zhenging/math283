@@ -32,7 +32,7 @@ u \cdot v &= 1 \times 1 + 0 \times \sqrt 3 = 1\\
 \end{aligned}
 $$
 
-21\. $u=\langle -10, 0, 4 \rangle, v = \langle 1, 2, 3 \rangle$
+21\. $u=\la -10, 0, 4 \ra, v = \la 1, 2, 3 \ra$
 >Solution
 $$
 \begin{aligned}
@@ -60,33 +60,33 @@ $$
 28\. Todo
 
 29–36\. **Calculating orthogonal projections** For the given vectors u and v, calculate $\text{proj}_v u$ and $\text{scal}_v u$.
-29\. $u= \langle -1, 4 \rangle, v=\langle -4, 2 \rangle$
+29\. $u= \la -1, 4 \ra, v=\la -4, 2 \ra$
 >Solution
 $$
 \begin{aligned}
 \text{scal}_v u &= \frac{u \cdot v}{|v|} = \frac{(-1) \times (-4) + 4 \times 2 }{\sqrt{(-4)^2 + 2^2}} = \frac{6}{\sqrt 5}\\
-\text{proj}_v u &= \text{scal}_v u (\frac{v}{|v|} )= \frac{6}{\sqrt 5} \times \frac{\langle -4, 2 \rangle}{\sqrt{20}}\\
-&=\langle -\frac{12}{5}, \frac{6}{5} \rangle
+\text{proj}_v u &= \text{scal}_v u (\frac{v}{|v|} )= \frac{6}{\sqrt 5} \times \frac{\la -4, 2 \ra}{\sqrt{20}}\\
+&=\la -\frac{12}{5}, \frac{6}{5} \ra
 \end{aligned}
 $$
 
-31\. $u= \langle 3, 3, -3 \rangle, v=\langle 1, -1, 2 \rangle$
+31\. $u= \la 3, 3, -3 \ra, v=\la 1, -1, 2 \ra$
 >Solution
 $$
 \begin{aligned}
 \text{scal}_v u &= \frac{u \cdot v}{|v|} = \frac{3 \times 1 + 3 \times (-3) + (-3) \times 2}{\sqrt 6} = -\sqrt 6\\
-\text{proj}_v u &= \text{scal}_v u (\frac{v}{|v|}) = -\sqrt 6 \times \frac{\langle 1, -1, 2 \rangle}{\sqrt 6}\\
-&= \langle -1, 1, -2 \rangle
+\text{proj}_v u &= \text{scal}_v u (\frac{v}{|v|}) = -\sqrt 6 \times \frac{\la 1, -1, 2 \ra}{\sqrt 6}\\
+&= \la -1, 1, -2 \ra
 \end{aligned}
 $$
 
-33\. $u= \langle -8, 0, 2 \rangle, v=\langle 1, 3, -3 \rangle$
+33\. $u= \la -8, 0, 2 \ra, v=\la 1, 3, -3 \ra$
 >Solution
 $$
 \begin{aligned}
 \text{scal}_v u &= \frac{u \cdot v}{|v|} = \frac{-8 \times 1 + 0 + 2 \times (-3)}{\sqrt{19}} = -\frac{14}{\sqrt{19}}\\
-\text{proj}_v u &= \text{scal}_v u (\frac{v}{|v|}) = -\frac{14}{\sqrt{19}} \times \frac{\langle 1, 3, -3 \rangle}{\sqrt{19}}\\
-&= \langle -\frac{14}{19}, -\frac{42}{19}, \frac{42}{19} \rangle
+\text{proj}_v u &= \text{scal}_v u (\frac{v}{|v|}) = -\frac{14}{\sqrt{19}} \times \frac{\la 1, 3, -3 \ra}{\sqrt{19}}\\
+&= \la -\frac{14}{19}, -\frac{42}{19}, \frac{42}{19} \ra
 \end{aligned}
 $$
 
@@ -95,8 +95,8 @@ $$
 $$
 \begin{aligned}
 \text{scal}_v u &= \frac{u \cdot v}{|v|} = \frac{5 \times (-1) + 1 \times 1 + (-5) \times (-2)}{\sqrt{6}} = \sqrt{6}\\
-\text{proj}_v u &= \text{scal}_v u (\frac{v}{|v|}) = \sqrt 6 \times \frac{\langle -1, 1, -2 \rangle}{\sqrt 6}\\
-&= \langle -1, 1, -2 \rangle
+\text{proj}_v u &= \text{scal}_v u (\frac{v}{|v|}) = \sqrt 6 \times \frac{\la -1, 1, -2 \ra}{\sqrt 6}\\
+&= \la -1, 1, -2 \ra
 \end{aligned}
 $$
 
@@ -110,55 +110,55 @@ w &= F \cdot d = |F| |d| \cos(30\degree)\\
 \end{aligned}
 $$
 
-40\. A constant force $F = \langle 4, 3, 2 \rangle$ (in newtons) moves an object from $\langle 0, 0, 0 \rangle$ to $\langle 8, 6, 0 \rangle$. (Distance is measured in meters.)
+40\. A constant force $F = \la 4, 3, 2 \ra$ (in newtons) moves an object from $\la 0, 0, 0 \ra$ to $\la 8, 6, 0 \ra$. (Distance is measured in meters.)
 >Solution
 $$
 \begin{aligned}
-w &= F\cdot d = \langle 4, 3, 2 \rangle \cdot \langle 8, 6, 0 \rangle\\
+w &= F\cdot d = \la 4, 3, 2 \ra \cdot \la 8, 6, 0 \ra\\
 &= 4 \times 8 + 3 \times 6 + 0 = 50J
 \end{aligned}
 $$
 
-43–46\. **Parallel and normal forces** Find the components of the vertical force $F = \langle 0, -10 \rangle$ in the directions parallel to and normal to the following planes. Show that the total force is the sum of the two component forces.
+43–46\. **Parallel and normal forces** Find the components of the vertical force $F = \la 0, -10 \ra$ in the directions parallel to and normal to the following planes. Show that the total force is the sum of the two component forces.
 45\. A plane that makes an angle of $\pi/3$ with the positive x-axis.
 >Solution
-$v = \langle \frac{1}{2}, -\frac{\sqrt 3}{2} \rangle$. Let the component parallel to $F$ be $P$, and normal to $F$ be $N$.
+$v = \la \frac{1}{2}, -\frac{\sqrt 3}{2} \ra$. Let the component parallel to $F$ be $P$, and normal to $F$ be $N$.
 $$
 \begin{aligned}
 P = \text{proj}_v F &= \frac{F\cdot v}{v\cdot v} v \\
-&=5\sqrt 3\langle \frac{1}{2}, -\frac{\sqrt 3}{2} \rangle = \langle \frac{5\sqrt 3}{2}, -\frac{15}{2} \rangle\\
-N = F - P &= \langle -\frac{5\sqrt 3}{2}, -\frac{5}{2} \rangle
+&=5\sqrt 3\la \frac{1}{2}, -\frac{\sqrt 3}{2} \ra = \la \frac{5\sqrt 3}{2}, -\frac{15}{2} \ra\\
+N = F - P &= \la -\frac{5\sqrt 3}{2}, -\frac{5}{2} \ra
 \end{aligned}
 $$
 
 48–52\. **Orthogonal vectors** Let a and b be real numbers.
-49\. Find all vectors $\langle 1, a, b \rangle$ orthogonal to $\langle 4, -8, 2 \rangle$.
+49\. Find all vectors $\la 1, a, b \ra$ orthogonal to $\la 4, -8, 2 \ra$.
 >Solution
 When two vectors are orthogonal, their dot product is 0.
 $$
 \begin{aligned}
-&\langle 1, a, b \rangle \cdot \langle 4, -8, 2 \rangle = 0\\
+&\la 1, a, b \ra \cdot \la 4, -8, 2 \ra = 0\\
 \To &4-8a + 2b = 0\\
 \To &b = 4a-2
 \end{aligned}
 $$
-These vectors have the form of $\langle 1, a, 4a-2 \rangle$.
+These vectors have the form of $\la 1, a, 4a-2 \ra$.
 
 54–57\. **Vectors with equal projections** Given a fixed vector v, there is an infinite set of vectors u with the same value of $\text{proj}_v u$.
-55\. Let $v = \langle 1, 1 \rangle$. Give a description of the position vectors u such that $\text{proj}_v u = \text{proj}_v \langle 1, 2 \rangle$.
+55\. Let $v = \la 1, 1 \ra$. Give a description of the position vectors u such that $\text{proj}_v u = \text{proj}_v \la 1, 2 \ra$.
 >Solution
 Todo
 <br>
 <br>
 
 58–61\. **Decomposing vectors** For the following vectors $u$ and $v$, express $u$ as the sum $u = p + n$, where $p$ is parallel to $v$ and $n$ is orthogonal to $v$.
-59\. $u = \langle -2, 2 \rangle, v= \langle 2, 1 \rangle$
+59\. $u = \la -2, 2 \ra, v= \la 2, 1 \ra$
 >Solution
 $$
 \begin{aligned}
 p = \text{proj}_v u &= \frac{u \cdot v}{v\cdot v} v\\
-&=-\frac{2}{5}\langle 2, 1 \rangle = \langle -\frac{4}{5}, -\frac{2}{5} \rangle\\
-n = u-p &= \langle -\frac{6}{5}, \frac{12}{5} \rangle
+&=-\frac{2}{5}\la 2, 1 \ra = \la -\frac{4}{5}, -\frac{2}{5} \ra\\
+n = u-p &= \la -\frac{6}{5}, \frac{12}{5} \ra
 \end{aligned}
 $$
 
@@ -170,20 +170,20 @@ d. Show that $w = u-\text{proj}_v u$ is a vector orthogonal to $v$ whose length 
 e. Find $w$ and $|w|$. Explain why $|w|$ is the distance between P and $\ell$.
 63\. $P(-12, 4); \ell: y = 2x$
 >Solution
-a. $v = \langle 1, 2 \rangle$
-b. $u = \langle -12, 4 \rangle$
-c. $\text{proj}_v u = \frac{u \cdot v}{v \cdot v} v = \langle -\frac{4}{5}, -\frac{8}{5} \rangle$.
-d. $w = u-\text{proj}_v u = \langle -\frac{56}{5}, \frac{28}{5} \rangle$ and $w \cdot v = 0$. Therefore, $w$ and $v$ are orthogonal.
+a. $v = \la 1, 2 \ra$
+b. $u = \la -12, 4 \ra$
+c. $\text{proj}_v u = \frac{u \cdot v}{v \cdot v} v = \la -\frac{4}{5}, -\frac{8}{5} \ra$.
+d. $w = u-\text{proj}_v u = \la -\frac{56}{5}, \frac{28}{5} \ra$ and $w \cdot v = 0$. Therefore, $w$ and $v$ are orthogonal.
 e. $|w| = \frac{28\sqrt 5}{5}$. $|w|$ is the component of $u$ orthogonal to $v$, so it is the distance from $P$ to $\ell$.
 
-69\. **Orthogonal unit vectors in $\R^3$** Consider the vectors $I = \langle \frac{1}{2}, \frac{1}{2}, \frac{1}{\sqrt 2} \rangle$, $J = \langle -\frac{1}{\sqrt 2}, \frac{1}{\sqrt 2}, 0 \rangle$, $K = \langle \frac{1}{2}, \frac{1}{2}, -\frac{1}{\sqrt 2} \rangle$
+69\. **Orthogonal unit vectors in $\R^3$** Consider the vectors $I = \la \frac{1}{2}, \frac{1}{2}, \frac{1}{\sqrt 2} \ra$, $J = \la -\frac{1}{\sqrt 2}, \frac{1}{\sqrt 2}, 0 \ra$, $K = \la \frac{1}{2}, \frac{1}{2}, -\frac{1}{\sqrt 2} \ra$
 a. Sketch **I, J, and K** and show that they are unit vectors.
 b. Show that **I, J, and K** are pairwise orthogonal.
-c. Express the vector $\langle 1, 0, 0 \rangle$ in terms of **I, J, and K.**
+c. Express the vector $\la 1, 0, 0 \ra$ in terms of **I, J, and K.**
 >Solution
 a. $|I| = \sqrt{(\frac{1}{2})^2 + (\frac{1}{2})^2 + (\frac{1}{\sqrt 2})^2} = 1$, $|J| = \sqrt{(-\frac{1}{\sqrt 2})^2 + (\frac{1}{\sqrt 2})^2 + 0^2} = 1$, and $|K| = \sqrt{(\frac{1}{2})^2 + (\frac{1}{2})^2 + (-\frac{1}{\sqrt 2})^2} = 1$
 b. $I \cdot J = -\frac{1}{2\sqrt 2} + \frac{1}{2\sqrt 2} = 0$, $I \cdot K = \frac{1}{4} + \frac{1}{4} - \frac{1}{2} = 0$, and $J \cdot K = -\frac{1}{2\sqrt 2} + \frac{1}{2\sqrt 2} = 0$
-c. Let $\langle 1, 0, 0 \rangle = aI + bJ + cK$,
+c. Let $\la 1, 0, 0 \ra = aI + bJ + cK$,
 $$
 \begin{aligned}
 \begin{gathered}
@@ -194,9 +194,9 @@ $$
 a = \frac{1}{2}, b = -\frac{1}{\sqrt 2}, c = \frac{1}{2}
 \end{aligned}
 $$
-Therefore, $\langle 1, 0, 0 \rangle = \frac{1}{2}I - \frac{1}{\sqrt 2}J + \frac{1}{2}K$
+Therefore, $\la 1, 0, 0 \ra = \frac{1}{2}I - \frac{1}{\sqrt 2}J + \frac{1}{2}K$
 
-72\. **Flow through a circle** Suppose water flows in a thin sheet over the xy-plane with a uniform velocity given by the vector $v = \langle 1, 2 \rangle$; this means that at all points of the plane, the velocity of the water has components 1 m/s in the x-direction and 2 m/s in the y-direction (see figure). Let C be an imaginary unit circle (that does not interfere with the flow). Graph (72).
+72\. **Flow through a circle** Suppose water flows in a thin sheet over the xy-plane with a uniform velocity given by the vector $v = \la 1, 2 \ra$; this means that at all points of the plane, the velocity of the water has components 1 m/s in the x-direction and 2 m/s in the y-direction (see figure). Let C be an imaginary unit circle (that does not interfere with the flow). Graph (72).
 >Solution
 Todo
 <br>
@@ -206,7 +206,7 @@ Todo
 <br>
 
 84–88\. **Cauchy-Schwarz Inequality** The definition $u \cdot v = |u| |v| \cos \th$ implies that$|u \cdot v| \les |u| |v|$ because $|\cos \th| \les 1$. This inequality, known as the Cauchy–Schwarz Inequality, holds in any number of dimensions and has many consequence.
-85\. Verify that the Cauchy–Schwarz Inequality holds for $u=\langle 3, -5, 6 \rangle$ and $v = \langle -8, 3, 1 \rangle$.
+85\. Verify that the Cauchy–Schwarz Inequality holds for $u=\la 3, -5, 6 \ra$ and $v = \la -8, 3, 1 \ra$.
 >Solution
 $|u \cdot v| = |3\times (-8) + (-5)\times 3 + 6\times 1| = 33$
 $|u| |v| = \sqrt{3^2 + (-5)^2 + 6^2} \cdot \sqrt{(-8)^2 + 3^2 + 1^2} = \sqrt{70 \times 74}$
