@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" data-reactroot=""><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><head><title>1210 Assignment</title><link rel="stylesheet" href="/math283/assets/katex.min_0.9.0.css"/><link rel="stylesheet" href="/math283/assets/github-markdown_2.10.0.css"/><link rel="stylesheet" href="/math283/assets/combined.css"/></head><body><header class="header"></header><main class="container"><div class="note-content"><article class="markdown-body"><p>/*<br />
+Zhongyuan Zheng / zhongyuan_zheng@my.cuesta.edu<br />
+CIS 232 / Scovil<br />
+Assignment 2<br />
+*/</p>
+<h4>Overview</h4>
+<p>For the assigment, we are required to implement our own version of <code>ArrayList</code>- one of the most important data structures in Java. In the project, I wrote a generic arraylist named <code>SortedArrayList</code> based on the version of Dr Weiss's. As part of the requirement, the list needs to be sorted at all times, modification to <code>add</code>, <code>remove</code>, and <code>set</code> method are made accordingly. Furthormore, in order to find mode of the data set in the list, I implementd an instance method - <code>getMode</code>. At last, a static method named <code>binarySearch</code> is added to the class to perform a binary search with input SortedArrayList referent and the desired item.<br />
+For <code>add(item)</code> method, on the basis of the original <code>add</code> method, the proper index of the new item is found, the existing elements at the right of the proper index are shifted to right by one index. Lastly, the new item is inserted at the proper index.<br />
+For the overloaded version of <code>add</code> method, though the desired index to put the item is given, it's not necessarily right if we want the list to be sorted. The logic of expanding the original array and inserting the new item is the same with that of <code>add(item)</code>, a direct call to <code>add(item)</code> is used.<br />
+When it comes to the <code>getMode</code> method, since an interface <code>Result</code> return type is wanted, the  <code>ResultOfSAL</code> (<strong>S</strong>orted<strong>A</strong>rray<strong>L</strong>ist) class is used to implement the <code>Result</code> interface, and the logic of finding the mode is encapsulated in the constructor of <code>ResultOfSAL</code>. Since the list is already sorted, a time complexity of <code>O(n)</code> can be archived. For the implementation, the following variable are used,</p>
+<ul>
+<li><code>lastItem</code>- the last accessed item</li>
+<li><code>lastCount</code>- the frequency of <code>lastItem</code></li>
+<li><code>maxItem</code> - the most ocuuring item</li>
+<li><code>maxCount</code>-the frequency of <code>maxItem</code></li>
+</ul>
+<p>In the <code>for</code> loop, <code>lastItem</code> is updated to be the current item. Once the current item is different from the old lastItem, <code>lastCount</code> is clear to be <code>1</code>, otherwise, <code>lastCount</code> increases by <code>1</code>. By comparing <code>lastCount</code> with <code>maxCount</code>, we are able to update <code>maxCount</code> and <code>maxItem</code>. At end of the loop, the <code>maxCount</code> is the frequency of the most-occurring item, and the <code>maxItem</code> is such item.</p>
+<h5>Question</h5>
+<p>In the <code>binarySearch</code> method, it is instructed to use <code>AnyType</code> for the second parameter. I was not able to do so, because the <code>binarySearch</code> method is static, it does not allow <code>AnyType</code> in the parameter list, as <code>AnyType</code> is not staticlly declared. I used <code>Comparable</code> for that parameter, and it worked. My question is how do we use the generic type <code>AnyType</code> in the static method? Thank you.</p>
+</article></div></main><footer class="note-footer"><div><p>Content written with attitude by @raven. <a href="../">Contact me</a><br />
+Page built with <a href="https://github.com/markdown-it/markdown-it">markdown-it</a>, <a href="https://khan.github.io/KaTeX/">Katex</a>, <a href="https://reactjs.org/">React</a> and <a href="https://webpack.js.org/">webpack</a>.<br />
+Updated at Oct 4, 2018 3:05 PM</p>
+</div></footer></body></html>
