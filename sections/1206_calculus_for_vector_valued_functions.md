@@ -1,5 +1,35 @@
 ### Section 12.6 Calculus for Vector-valued Functions
 
+#### The Derivative and Tangent Vector
+Let $r(t) = \la f(t), g(t), h(t) \ra$, where $f, g$ and $h$ are differentiable functions on $(a, b)$. Then $r$ has a derivative (or is differentiable) on $(a, b)$ and
+$$
+\begin{aligned}
+r'(t) = \la f'(t), g'(t), h'(t)\ra
+\end{aligned}
+$$
+Provided $r'(t) \ne 0$, $r'(t)$ is a **tangent vector** (or velocity vector) at point corresponding to $r(t)$.
+
+##### Derivative Rules
+Let $u$ and $v$ be differentiable vector-valued functions and let $f$ be a differentiable scalar-valued function, all at a point $t$. Let $c$ be a constant vector. The following rules apply.
+$$
+\begin{aligned}
+&\frac{d}{dt}(c) = 0\\[1em]
+&\frac{d}{dt}(u(t) + v(t)) = u'(t) + v'(t)\\[1em]
+&\frac{d}{dt}(f(t) u(t) = f'(t)u(t) + f(t)u'(t)\\[1em]
+&\frac{d}{dt}(u(f(t)) = u'(f(t)f'(t))\\[1em]
+&\frac{d}{dt}(u(t) \cdot v(t)) = u'(t)\cdot v(t) + u(t)\cdot v'(t)\\[1em]
+&\frac{d}{dt}(u(t) \times v(t)) = u'(t)\times v(t) + u(t)\times v'(t)
+&\end{aligned}
+$$
+
+#### Integrals of Vector-Valued Functions
+Let $r = \la f, g, h \ra$ be a vector function and let $R = \la F, G, H \ra$, where $F, G$ and $H$ are antiderivatives of $f, g, $ and $h$, respectively. THe indefinite integral of $r$ is
+$$
+\begin{aligned}
+\int r(t) = R(t) + C
+\end{aligned}
+$$
+
 #### Homework
 p835: 2, 9-23odd, 26, 27, 31, 33, 37, 38, 43, 49, 51, 53, 56, 59, 63, 66, 69, **73**, 77, 78, 82, **87**, 89a,b
 
