@@ -1,5 +1,12 @@
 ### Section 12.1 Vectors in the Plane
 
++ Scalar Multiplication
++ Vector Sddtion and Subtraction
++ Vector Components
++ Magnitude
++ Vector Operations in Terms of Components
++ Unit Vectors
+
 #### Homework
 p787: 1, 6, 11, 17, 21a-d, 23c, 25, 31, 32, 36, 39, 43, 45, **51**, **52**, 57, 58, 61, 71, 80, 87
 
