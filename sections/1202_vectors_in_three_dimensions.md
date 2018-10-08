@@ -1,5 +1,12 @@
 ### Section 12.2 Vectors in three Dimensions
 
++ The xyz-coordinate system
++ Equatins of Simple Planes
++ Distance in xyz-Space
++ Equatins of a Sphere
++ Vectors in $\R^3$
++ Magnitude and Unit Vectors
+
 #### Homework
 p797: 3, 7, 8, 11, 13, 21-33odd, 41, 47, 48, 53, 56, 59, 63, 67, 75
 

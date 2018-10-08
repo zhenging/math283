@@ -1,5 +1,70 @@
 ### Section 12.3 Dot Products
 
+#### Two forms of the Dot Product
+
+#### Dot product Form #1
+Given two nonzero vectors $u$ and $v$ in two or three dimensions, their **dot product** is
+$$
+\begin{aligned}
+u\cdot v = |u| |v| \cos \th
+\end{aligned}
+$$
+where $\th$ is the angle between $u$ and $v$ with $0 \les \th \les \pi$. If $u=0$ or $v=0$, then $u\cdot v$, and $\th$ is undefined.
+The dot product of two vectors is itself a scalar. Two special cases immediately asrise:
++ $u$ and $v$ are parallel ($\th = 0$ or $\th = \pi$) if only if $u \cdot v = \pm |u||v|$.
++ $u$ and $v$ are perpendicular ($\th = \pi/2$) if and only if $u \cdot v = 0$
+
+![Graph](../assets/1244.png)
+
+#### Dot product Form #2
+Given two vectors $u=\la u_1, u_2, u_3 \ra$ and $v=\la v_1, v_2, v_3 \ra$,
+$$
+\begin{aligned}
+u \cdot v = u_1 v_1 + u_3 v_3 + u_3 v_3
+\end{aligned}
+$$
+If $u$ and $v$ are both nonzero, then
+$$
+\begin{aligned}
+\cos\th = \frac{u_1 v_1 + u_3 v_3 + u_3 v_3}{|u||v|} = \frac{u\cdot v}{|u||v|}
+\end{aligned}
+$$
+
+#### EXAMPLE 2 Dot products and angles
+Let $u = \la \sqrt{3}, 1, 0 \ra$, $v=\la 1, \sqrt{3}, 0 \ra$, and $w=\la 1, \sqrt{3}, 2\sqrt{3} \ra$
+a. Compute $u\cdot v$
+b. Find the angle between $u$ and $v$.
+c. Find the angle between $u$ and $w$.
+>Solution
+a. $2\sqrt{3}$
+b. $\cos \th = \frac{\sqrt{3}}{2}$
+c. $\cos \th = \frac{\sqrt{3}}{4}$
+
+#### Orthogonal Projections
+
+##### (Orthogonal) Projection of $u$ onto $v$
+The orthogonal projection of $u$ onto $v$, denoted $\text{proj}_v u$, where $v \ne 0$ is
+$$
+\begin{aligned}
+\text{proj}_v u = |u| \cos \th (\frac{v}{|v|})
+\end{aligned}
+$$
+The orthogonal projection may also be computed with the formulas
+$$
+\begin{aligned}
+\text{proj}_v u = \text{scal}_v u (\frac{v}{|v|}) = (\frac{u\cdot v}{v\cdot v})v
+\end{aligned}
+$$
+where the scalar component of $u$ in the directions of $v$ is
+$$
+\begin{aligned}
+\text{scal}_v u  = |u|\cos \th = \frac{u\cdot v}{|v|}
+\end{aligned}
+$$
+
+##### Parallel and Normal Forces
+
+
 #### Homework
 p808: 5, 9, 13, 17, 21, 24, 25-28, 29-37odd, 40, **45**, 49, **55**, 59, 63, **69, 72**, 85
 
