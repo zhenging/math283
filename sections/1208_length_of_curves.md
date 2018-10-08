@@ -1,4 +1,4 @@
-### Section 12.8 Length Of Curvature
+### Section 12.8 Length Of Curves
 
 #### Arc Length
 To find the length of the curve between $(f(a), g(a))$ and $(f(b), g(b))$, we first subdivide the interval $[a,b]$ into $n$ subinterval using the grid points
@@ -11,7 +11,7 @@ $$
 $$
 ![Graph](../assets/1295.png)
 
-#### Arc Length for Vector Functions
+##### Arc Length for Vector Functions
 Consider the parameterized curve $r(t) = \la f(t), g(t), h(t) \ra$, where $f', g'$ and $h'$ are continuous, and the curve is traversed once for $a \les t \les b$. The arc length of the curve between $(f(a), g(a), h(a))$ and $f(b), g(b), h(b)$ is
 $$
 \begin{aligned}
@@ -33,6 +33,3 @@ $$
 s(t) = \int_a^t |v(u)| du
 $$
 where $|v| = |r'|$. Equivalently, $\dfrac{ds}{dt} = |v(t)| > 0$. If $|v(t)| = 1$, for $t \ges a$, then the parameter $t$ corresponding to the arc length.
-
-#### Homework
-p860: 2, 9-25 odd, 27, 31, 35, 52, 53a,b, 62
