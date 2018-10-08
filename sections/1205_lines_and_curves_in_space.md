@@ -1,5 +1,64 @@
 ### Section 12.5 Lines and Curves in Space
 
+#### Vector-Values Functions
+A function of the form $r(t) = \la x(t), y(t), z(t) \ra$ may be viewed in two ways.
+1\. It is a set of three parametric equations that describe a curve in space.
+2\. It is also a **vector-valued function**, which means that the three dependent variables (x, y, and z) are components of $r$, and each component varies with respect to a single independent variable $t$ (that often represents time),
+
+#### Lines in Space
+Two distinct points in $\R^3$ determine a unique line. **Alternatively**, one point and a direction also determine a unique line.
+![Graph](../assets/1267.png)
+Let $P(x, y, z)$ be a variable point on $\ell$, $v$ be nonzero vector $\la a, b, c \ra$ and a fixed point $P_0(x_0, y_0, z_0)$. By vector addtion, we see that
+$$
+\begin{aligned}
+\vec{OP} &= \vec{OP_0} + \vec{P_0P}\\
+\la x, y, z \ra &= \la x_0, y_0, z_0 \ra + t \la a, b, c \ra\\
+\bold{Or}\\
+r &= r_0 + tv
+\end{aligned}
+$$
+
+##### EXAMPLE 1 Equation of lines
+Find the equation of the line that passes throught the point $P_0(1, 2, 4)$ in the direction of $v = \la 5, -3, 1 \ra$
+>Solution
+$r(t) = \la 1, 2, 4 \ra + t \la 5, -3, 1 \ra$
+
+##### EXAMPLE 2 Equation of lines
+Let $\ell$ be the line that passes through the points $P_0(-3, 5, 8)$, and $P_1(4, 2, -1)$.
+a. Find an equation of $\ell$.
+b. Find equations of the projections of $\ell$ on the xy- and xz-planes.
+>Solution
+a. The direction of the line is $\vec{P0_P1} = \la 7, -3, -9 \ra$. Therefore, with $r_0 = \la -3, 5, 8 \ra$. the equation of $\ell$ is
+$$
+\begin{aligned}
+r(t) &= r_0 + tv\\
+&=\la -3, +7t, 5-3t, 8-9t \ra
+\end{aligned}
+$$
+b. Set $z=0$ to get xy-plane projection, and set $y=0$ to get xz-plane projection.
+
+#### Curves in Space
+$$
+\begin{aligned}
+r(t) = \la f(t), g(t), h(t) \ra = f(t)\ihat + g(t)\jhat + h(t)\khat
+\end{aligned}
+$$
+where $f, g$ and $h$ are defined on an interval $a \les t \les b$. The **domain** of $r$ is the largest set of values of $t$ on which all $f, g$ and $h$ are defined.
+
++ Helix
++ Roller coaster
++ Slinky Curve
+
+#### Limits and Continuity for Vector-Valued Functions
+A vector-valued function $r$ approaches the limit $L$ as $t$ approaches $a$, written
+$$
+\begin{aligned}
+\lim_{t \to a} r(t) = L
+\end{aligned}
+$$
+provided $|\dlim_{t \to a} r(t) - L| = 0$
+
+
 #### Homework
 p826: 1-3, 5-27odd, 31, 33, 35, 38, 41, 44, 45, 49, 51, 57, 61, 67, 75
 

@@ -2,7 +2,7 @@
 
 #### Curvature
 If a small increment in arc length $\Delta s$ along the curve results in a large change in the direction of $T$, the curve is turning quickly over that interval and we say it has a large curvature ( Figure 12.102a). If a small increment $\Delta s$ in arc length results in a small change in the direction of $T$, the curve is turning slowly over that interval and it has a small curvature (Figure 12.102b). The magnitude of the rate at which the direction of $T$ changes with respect to arc length is the **curvature** of the curve.
-![Graph](../assets/fig12_102.png)
+![Graph](../assets/12102.png)
 
 Let $r$ describe a smooth parameterized curve. If $s$ denotes arc length and $T = \dfrac{r'}{|r'|}$ is the unit tangent vector, the **curvature** is $\kappa(s) = |\dfrac{dT}{ds}|$.
 
@@ -76,7 +76,7 @@ $$
 
 #### The Binormal Vector and Torsion
 Define the _unit binormal vector_ $B = T \times N$. $B$ is orthogonal to both $T$ and $N$. Becase $T$ and $N$ are unit vector, $B$ is also a unit vector. $T, N$ and $B$ form a right handed coordinate system that changes its orientation as we move along the curve. This coordinate system is ofen called the **TNB frame**.
-![Graph](../assets/fig12_110.png)
+![Graph](../assets/12110.png)
 The rate at which the curve $C$ twists out of the plane determined by $T$ and $N$ is the rate at which $B$ changes as we move along $C$, which is $\dfrac{dB}{dS}$.
 $$
 \begin{aligned}

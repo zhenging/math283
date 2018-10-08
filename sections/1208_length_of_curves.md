@@ -9,7 +9,7 @@ We connect the corresponding points into curves,
 $$
 (f(t_0), g(t_0)), \cdots f(t_k), g(t_k), \cdots f(t_n), g(t_n)
 $$
-![Graph](../assets/fig12_95.png)
+![Graph](../assets/1295.png)
 
 #### Arc Length for Vector Functions
 Consider the parameterized curve $r(t) = \la f(t), g(t), h(t) \ra$, where $f', g'$ and $h'$ are continuous, and the curve is traversed once for $a \les t \les b$. The arc length of the curve between $(f(a), g(a), h(a))$ and $f(b), g(b), h(b)$ is
