@@ -1,5 +1,86 @@
 ### Section 12.4 Cross Products
 
+#### The Cross product
+Given two nonzero vectors $u$ and $v$ in $\R^3$, the cross product $u\times v$ is a vector with magnitude
+$$
+\begin{aligned}
+|u \times v| = |u| |v| \sin \th
+\end{aligned}
+$$
+where $0 \les \th \les \pi$ is the angle between $u$ and $v$. The direction of $u \times v$ is given by the right-hand rule: When you put the vectors to tail and let the fingers of your right hand curl from $u$ to $v$, the direction of $u \times v$ is the direction of your thumb, orthogonal to both $u$ and $v$. When $u\times v = 0$, the direction of $u \times v$ is undefined.
+
+##### Geometry of the Cross Product
+Let $u$ and $v$ be two nonzero vectors in $\R^3$.
+1\. The vectors $u$ and $v$ are parallel ($\th = 0$ or $\th = \pi$) if and only if $u\times v = 0$.
+2\. If $u$ and $v$ are two sides of a parallelogram, then the area of the parallelogram is
+$$
+\begin{aligned}
+|u \times v| = |u| |v| \sin \th
+\end{aligned}
+$$
+
+##### EXAMPLE 1 A cross product
+Find the magnitude and direction of $u\times v$, where $u = \la 1, 1, 0 \ra$, and $v=\la 1, 1, \sqrt{2} \ra$
+>Solution
+$|u \times v| = |u| |v| \sin \th = \sqrt{2} \cdot 2 \cdot \frac{1}{\sqrt{2}} = 2$. The direction is given by the right-hand rule.
+
+####  Prpperties of the Cross Product
+Let $u, v$, and $w$ be nonzero vectors in $\R^3$, and let $a$ and $b$ be scalars.
+1\. $u \times v = -(v \times u)$
+2\. $(au) \times (bv) = ab(u \times v)$
+3\. $u \times (v + w) = (u \times v) + (u \times w)$
+4\. $(u + v) \times w = (u \times w) + (v \times w)$
+
+##### Cross Products of Coordinate Unit Vectors
+$$
+\begin{aligned}
+i \times j &= - (j \times i) = k\\
+j \times k &= - (k \times j) = i\\
+k \times i &= - (i \times k) = j\\
+i \times i &= j \times j = j = k \times k = 0
+\end{aligned}
+$$
+
+##### Evaluating the Cross Product
+Let $u = u_1 \ihat + u_2 \ihat + u_3 \khat$ and $v = v_1 \ihat + v_2 \ihat + v_3 \khat$. Then
+$$
+\begin{aligned}
+u \times v = \begin{vmatrix}
+ i & j & k\\
+u_1& u_2 & u_3\\
+v_1& v_2 & v_3
+\end{vmatrix} = \begin{vmatrix}
+u_2 & u_3\\
+v_2 & v_3
+\end{vmatrix} \ihat + \begin{vmatrix}
+u_1 & u_3\\
+v_1 & v_3
+\end{vmatrix} \jhat + \begin{vmatrix}
+u_1 & u_2\\
+v_1 & v_2
+\end{vmatrix} \khat
+\end{aligned}
+$$
+
+##### EXAMPLE 3 Area of a Triangle
+Find the area of the triangle with vertices $O(0,0,0), P(0,0,0)$, $Q(3, 2, 0)$
+>Solution
+The area of the parallelogram is $\vec{OP} \times \vec{OQ} = \la -8, 12, -5 \ra$. The area of the triangle is half of that of the parallelogram.
+
+##### EXAMPLE 4 Vector normal to two vectors
+Find a vector normal to the two vectors $u = \la -1, 0, 6 \ra$, and $v= \la 2, -5, -3 \ra$
+>Solution
+A vector normal to $u$ and $v$ is parallel to $u \times v$. One normal vector is
+$$
+\begin{aligned}
+u \times v = \la 30, 9, 5 \ra
+\end{aligned}
+$$
+
+#### Applications of the Cross Product
++ Torque $|\tau|= | r \times F = |r| |F| \sin \th$
++ Force on a proton $|F| = |q| |v\times B| = |q| |v| |B| \sin\th$
+
 #### Homework
 p817: 4, 7, 9, 10, 13, 15-25odd, 29, 32, **35**, 39, 42, 45, 55, **63**, 65
 
