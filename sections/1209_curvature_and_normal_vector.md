@@ -77,7 +77,7 @@ $$
 #### The Binormal Vector and Torsion
 Define the _unit binormal vector_ $B = T \times N$. $B$ is orthogonal to both $T$ and $N$. Becase $T$ and $N$ are unit vector, $B$ is also a unit vector. $T, N$ and $B$ form a right handed coordinate system that changes its orientation as we move along the curve. This coordinate system is ofen called the **TNB frame**.
 ![Graph](../assets/12110.png)
-The rate at which the curve $C$ twists out of the plane determined by $T$ and $N$ is the rate at which $B$ changes as we move along $C$, which is $\dfrac{dB}{dS}$.
+The rate at which the curve $C$ twists out of the plane determined by $T$ and $N$ is the rate at which $B$ changes as we move along $C$, which is $\dfrac{dB}{ds}$.
 $$
 \begin{aligned}
 \frac{dB}{ds} &= \frac{d}{ds}(T\times N)\\
@@ -116,8 +116,8 @@ $$
 \end{aligned}
 $$
 
-#### Examples
-(9) **Torsion of a helix** Compute the torsion of the helix $r(t) = \la a\cos t, a\sin t, bt \ra$ for $t \ges 0$, with $a > 0$ and $b  > 0$.
+##### EXAMPLE 9 Torsion of a helix
+Compute the torsion of the helix $r(t) = \la a\cos t, a\sin t, bt \ra$ for $t \ges 0$, with $a > 0$ and $b  > 0$.
 >Solution
 $$
 \begin{aligned}
@@ -146,6 +146,3 @@ $$
 &= \frac{b}{a^2 + b^2}
 \end{aligned}
 $$
-
-#### Homework
-p874: 4, 11, 12, 15, 19, 21, 25, 26, 27, 31, 34, 41, 45, 47, 50, 51, 63, 69
