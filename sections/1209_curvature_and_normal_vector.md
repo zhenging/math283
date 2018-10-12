@@ -59,7 +59,7 @@ N(t) = \frac{dT/dt}{|dT/dt|}
 $$
 evaluated at value of $t$ corresponding to $P$.
 
-##### Proerties of the Principal Unit NOrmal Vector
+##### Proerties of the Principal Unit Normal Vector
 Let $r$ describe a smooth parameterized curve with unit tangent vector $T$ and principal unit normal vector $N$.
 1\. $T$ and $N$ are orthogonal at all points of the curve; that is, $T(t) \cdot N(t) = 0$ at all points where $N$ is defined.
 2\. The principal unit normal vector points to the inside of the curve - in the direction that the curve is turning.
@@ -113,6 +113,14 @@ and the torsion is
 $$
 \begin{aligned}
 \tau = -\frac{dB}{ds} \cdot N
+\end{aligned}
+$$
+
+##### EXAMPLE 8 Unit binormal vectors
+Consider the circle $C$ defined by
+$$
+\begin{aligned}
+r(t) = \la R\sin t, R\cos t \ra
 \end{aligned}
 $$
 
