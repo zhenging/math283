@@ -42,3 +42,10 @@ b. $\d F = \la \varphi_x, \varphi_y \ra = \la -\frac{y}{x^2 + y^2},  \frac{x}{x^
 
 ##### Equipotential Curves and Surfaces
 The level curve of a potential function are called **equipotential curves** (curves on which the potential function is constant.) The idea also apply to vector field in $\R^3$ in which case the vector field is orthogonal to the **equipotential surfaces**.
+
+##### EXAMPLE 5 Equipotential curves
+The equipotential curves for the potential function $\varphi(x, y) = (x^2 - y^2) / 2$.
+a. Find the gradient field associated with $\varphi$ and verify that the gradient field is orthogonal to the equipotential curve at $(2, 1)$.
+b.  Verify that the vector field $F = \nabla \varphi$ is orthogonal to the equipotential curves at all points $(x, y)$.
+>Solution
+b. In general, the line tangent to the equipotential curve at $(x, y)$ is parallel to the vector $\la y, x \ra$, while the vector field at that points is $F = \la x, -y \ra$. The vector field and the tangent vectors are orthogonal because $\la y, x \ra \cdot \la x, -y \ra = 0$.
