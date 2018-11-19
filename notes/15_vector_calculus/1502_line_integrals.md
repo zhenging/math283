@@ -45,7 +45,57 @@ An eagle soars on the ascending spiral path $C: r(t) = \la x(t), y(t), z(t) \ra 
 $13000$ ft.
 
 #### Line Integrals of Vector Fields
+Let $F$ be a vector field that is continuous on a region containing a smooth oreiented curvce $C$ parameterized by arc length. Let $T$ be the unit tangent vector at each point of $C$ consistent with the orientation. The line integral of $F$ over $C$ is $\dint_C F \cdot T ds$.
+
+Suppose that $C$ has a parameterization $r(t) = \la x(t), y(t), z(t) \ra$, for $a \les x \les b$. The unit vector at a point on the curve is
+$$
+T = \frac{r'(t)}{|r'(t)}
+$$
+The arc length differential $ds = |r'(t)|dt$, then the line integral becomes
+$$
+\begin{aligned}
+\int_C F \cdot T ds &= \int_a^b F\cdot \frac{r'(t)}{|r'(t)} |r'(t)|dt\\
+&= \int_a^b F\cdot r'(t) dt\\
+&= \int_a^b (fx'(t) + gy'(t) + hz'(t)) dt\\
+&= \int_C fdx + gdy + hdz\\
+&= \int_C F\cdot dr
+\end{aligned}
+$$
+
+##### EXAMPLE 5 Different Path
+Evaluate $\int_C F \cdot T ds$ with $F = \la y-x, x \ra$ on the following oriented plath in $\R^2$.
+a. The quarter circle $C_1$ from $P(0, 1)$ to $Q(1, 0)$.
+b. The quarter circle $-C_1$ from $Q(0, 1)$ to $P(1, 0)$.
+c. THe path $C_2$ form P to Q via two line segments through $O(0, 0)$.
+>Solution
+a. $\frac{1}{2}$
+b. $-\frac{1}{2}$
+c. $-\frac{1}{2}$
 
 ##### Work Integrals
 
-#### Circulation and Flux of a Vector Field
+#### Circulation
+Let $F$ be a continuous vector field on a region $D$ of $\R^3$ and let $C$ be a closed smooth oriented curve in $D$. The **circulation** of $F$ on $C$ is $\dint_C F \cdot T ds$, where $T$ is the unit vector tangent to $C$ consistent with the orientation.
+
+##### EXAMPLE 7 Circulation of two-dimensional flows
+Let $C$ be the unit circle with counterclockwise orientation. Find the circulation on $C$ for the following vector fields.
+a. The radial flow field $F = \la x, y \ra$
+b. The radial flow field $F = \la -y, x \ra$
+>Solution
+a. $0$.
+b. $2\pi$
+
+#### Flux
+Let $F$ be a continuous vector field on a region $R$ of $\R^2$. let $C:r(t) = \la x(t), y(t) \ra$, for $a \les t \les b$, be a closed smooth oriented curve in $R$ that does not intersect itself. The **flux** of $F$ across $C$ is
+$$
+\int_C F\cdot n ds = \int_a^b (fy'(t) - gx'(t))dt
+$$
+where $n = T\times \khat$ is the unit normal vector and $T$ is the unit tangent vector consistent with the orientation. If $C$ is a closed curve with counterclockwise orientation, $n$ is the outward normal vector and the flux integral gives the outward flux across $C$.
+
+##### EXAMPLE 9 Flux of two-dimensional flows
+Find the outward flux across the unit circle with counterclockwise orientation for the following vector fields.
+a. The radial flow field $F = \la x, y \ra$
+b. The radial flow field $F = \la -y, x \ra$
+>Solution
+a. $2\pi$.
+b. $0$
