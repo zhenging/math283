@@ -1,5 +1,3 @@
-Notes of Calculus
-
 To enable git commit hook:
 ```
 touch .git/hooks/post-commit
